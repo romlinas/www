@@ -1,0 +1,52 @@
+
+    
+            <div class="the-slideshow-wrapper-outer" >
+    
+            <div class="the-slideshow-wrapper">
+
+                <div class="the-slideshow    slider-arrows2 slider-pagination2 pagination-pos-over-bottom-centered">
+                    <div id="slideshow-f06bf8c50e4938e8d3b5d6e4466074f8" class="slides">
+                                                                        <div class="item slide">
+                                                            </div>
+                                                                                                <div class="item slide">
+                                                            </div>
+                                                                                                <div class="item slide">
+                                                            </div>
+                                                                </div> <!-- end: slides -->
+                </div> <!-- end: the-slideshow -->
+
+                
+            </div> <!-- end: the-slideshow-wrapper -->
+
+            </div> <!-- end: the-slideshow-wrapper-outer -->
+    
+<script type="text/javascript">
+//<![CDATA[
+    jQuery(function($) {
+        
+        var owl = $('#slideshow-f06bf8c50e4938e8d3b5d6e4466074f8');
+        owl.owlCarousel({
+
+            singleItem: true,
+
+                    slideSpeed: 200,
+        
+                    paginationSpeed: 500,
+        
+                    autoPlay: 10000,
+        
+                    stopOnHover: true,
+        
+                    rewindNav: true,
+            rewindSpeed: 600,
+        
+        
+        
+            navigation: true,
+            navigationText: false
+
+        }); //end: owl
+
+    });
+//]]>
+</script>

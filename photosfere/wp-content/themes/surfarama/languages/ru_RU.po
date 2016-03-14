@@ -1,0 +1,852 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Surfarama v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-11-20 06:32:00+0000\n"
+"Last-Translator: admin <dyba03@yandex.ua>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:9
+#@ surfarama
+msgid "Error 404 - Page Not Found"
+msgstr "Ошибка 404"
+
+#: 404.php:13
+#@ surfarama
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr "К сожалению, ничего не найдено."
+
+#: 404.php:19
+#: search.php:67
+#@ surfarama
+msgid "Most Used Categories"
+msgstr "Популярные категории"
+
+#. translators: %1$s: smilie
+#. translators: %1$s: smilie
+#: 404.php:27
+#: search.php:75
+#, php-format
+#@ surfarama
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Архив за месяц: %1$s"
+
+#: archive.php:13
+#, php-format
+#@ surfarama
+msgid "Daily Archives: %s"
+msgstr "День: %s"
+
+#: archive.php:15
+#, php-format
+#@ surfarama
+msgid "Monthly Archives: %s"
+msgstr "Месяц: %s"
+
+#: archive.php:17
+#, php-format
+#@ surfarama
+msgid "Yearly Archives: %s"
+msgstr "Год: %s"
+
+#: archive.php:19
+#: functions.php:471
+#: sidebar-archive.php:45
+#: sidebar-full.php:45
+#: sidebar-home.php:45
+#: sidebar-page.php:45
+#: sidebar-post.php:45
+#: sidebar.php:45
+#@ surfarama
+msgid "Archives"
+msgstr "Архив"
+
+#: archive.php:52
+#: author.php:59
+#: category.php:60
+#: home-page-with-intro.php:78
+#: index.php:47
+#: search.php:55
+#: tag.php:50
+#@ surfarama
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: archive.php:56
+#: author.php:63
+#: category.php:64
+#: home-page-with-intro.php:82
+#: index.php:51
+#: tag.php:54
+#@ surfarama
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "К сожалению, ничего не найдено."
+
+#: author.php:20
+#, php-format
+#@ surfarama
+msgid "Author Archives: %s"
+msgstr "Автор: %s"
+
+#: category.php:22
+#, php-format
+#@ surfarama
+msgid "Category Archives: %s"
+msgstr "Рубрики: %s"
+
+#: comments.php:8
+#@ surfarama
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Запаролено."
+
+#: comments.php:24
+#, php-format
+#@ surfarama
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: comments.php:39
+#@ surfarama
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:40
+#@ surfarama
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: comments.php:41
+#@ surfarama
+msgid "Newer Comments &rarr;"
+msgstr "Новые комментарии &rarr;"
+
+#: comments.php:51
+#@ surfarama
+msgid "Comments are closed."
+msgstr "Комментарии закрыты"
+
+#. translators: used between list items, there is a space after the comma
+#: content-aside.php:35
+#: content-chat.php:35
+#: content-gallery.php:53
+#: content-gallery.php:98
+#: content-gallery.php:109
+#: content-image.php:37
+#: content-link.php:35
+#: content-quote.php:35
+#: content-single.php:44
+#: content-status.php:35
+#: content-video.php:30
+#: content-video.php:64
+#: content.php:37
+#: content.php:75
+#@ surfarama
+msgid ", "
+msgstr ""
+
+#: content-aside.php:39
+#: content-chat.php:39
+#: content-gallery.php:57
+#: content-image.php:41
+#: content-link.php:39
+#: content-quote.php:39
+#: content-status.php:39
+#: content-video.php:34
+#: content.php:41
+#, php-format
+#@ surfarama
+msgid "%1$s"
+msgstr ""
+
+#: content-aside.php:45
+#: content-chat.php:45
+#: content-gallery.php:64
+#: content-gallery.php:66
+#: content-gallery.php:81
+#: content-image.php:47
+#: content-link.php:45
+#: content-quote.php:45
+#: content-status.php:45
+#: content-video.php:40
+#: content.php:47
+#, php-format
+#@ surfarama
+msgid "Permalink to %s"
+msgstr "%s"
+
+#: content-aside.php:53
+#: content-chat.php:53
+#: content-gallery.php:77
+#: content-image.php:58
+#: content-link.php:53
+#: content-quote.php:53
+#: content-status.php:53
+#: content.php:65
+#: home-page-with-intro.php:14
+#@ surfarama
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:54
+#: content-chat.php:54
+#: content-gallery.php:90
+#: content-link.php:54
+#: content-page.php:8
+#: content-quote.php:54
+#: content-single.php:38
+#: content-status.php:54
+#: image.php:78
+#@ surfarama
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: content-gallery.php:80
+#, php-format
+#@ surfarama
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: content-gallery.php:102
+#, php-format
+#@ surfarama
+msgid "Posted in %1$s"
+msgstr "Опубликовано: %1$s"
+
+#: content-gallery.php:113
+#: content-video.php:68
+#: content.php:79
+#, php-format
+#@ surfarama
+msgid "Tagged %1$s"
+msgstr "Метки: %1$s"
+
+#: content-gallery.php:120
+#: content-image.php:67
+#: content-single.php:31
+#: content-video.php:75
+#: content.php:86
+#@ surfarama
+msgid "Leave a comment"
+msgstr "Комментировать"
+
+#: content-gallery.php:120
+#: content-image.php:67
+#: content-single.php:31
+#: content-video.php:75
+#: content.php:86
+#@ surfarama
+msgid "1 Comment"
+msgstr "Один комментарий"
+
+#: content-gallery.php:120
+#: content-image.php:67
+#: content-single.php:31
+#: content-video.php:75
+#: content.php:86
+#@ surfarama
+msgid "% Comments"
+msgstr "Комментариев: %"
+
+#: content-gallery.php:124
+#: content-image.php:69
+#: content-page.php:10
+#: content-single.php:77
+#: content-video.php:79
+#: content.php:90
+#: image.php:26
+#: image.php:92
+#@ surfarama
+msgid "Edit"
+msgstr "Изменить"
+
+#: content-single.php:19
+#, php-format
+#@ surfarama
+msgid "<span class=\"sep meta-by\"%8$s>Author </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span><span class=\"byline\"> <span class=\"sep meta-on\"%8$s> Date </span> <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span>"
+msgstr "<span class=\"sep meta-by\"%8$s>Автор </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span><span class=\"byline\"> <span class=\"sep meta-on\"%8$s> Дата </span> <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span>"
+
+#: content-single.php:25
+#: functions.php:702
+#, php-format
+#@ surfarama
+msgid "View all posts by %s"
+msgstr "Все записи автора: %s"
+
+#: content-single.php:31
+#@ surfarama
+msgid "Comments:"
+msgstr "Комментарии:"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:52
+#, php-format
+#@ surfarama
+msgid "Tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Метки: %2$s"
+
+#: content-single.php:54
+#, php-format
+#@ surfarama
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Ссылка на <a href=\"%3$s\" title=\"%4$s\" rel=\"bookmark\">запись</a>."
+
+#: content-single.php:60
+#, php-format
+#@ surfarama
+msgid "<span class=\"cat-meta-color\"%5$s>Posted in %1$s</span><div class=\"colorbar\"%5$s></div> Tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "<span class=\"cat-meta-color\"%5$s>Опубликовано: %1$s</span><div class=\"colorbar\"%5$s></div> Метки: %2$s"
+
+#: content-single.php:62
+#, php-format
+#@ surfarama
+msgid "<span class=\"cat-meta-color\"%5$s>Posted in %1$s</span><div class=\"colorbar\"%5$s></div> Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "<span class=\"cat-meta-color\"%5$s>Опубликовано: %1$s</span><div class=\"colorbar\"%5$s></div>"
+
+#: content-video.php:40
+#: content.php:47
+#: sidebar-archive.php:29
+#: sidebar-full.php:29
+#: sidebar-home.php:29
+#: sidebar-page.php:29
+#: sidebar-post.php:29
+#: sidebar.php:29
+#@ surfarama
+msgid "View Post"
+msgstr "Смотреть запись"
+
+#: footer.php:5
+#@ surfarama
+msgid "&copy; "
+msgstr ""
+
+#: footer.php:7
+#@ surfarama
+msgid "- Powered by "
+msgstr ""
+
+#: footer.php:7
+#@ surfarama
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:7
+#@ surfarama
+msgid "Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:7
+#@ surfarama
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:8
+#@ surfarama
+msgid " and "
+msgstr ""
+
+#: footer.php:8
+#@ surfarama
+msgid "http://wpthemes.co.nz/"
+msgstr ""
+
+#: footer.php:8
+#@ surfarama
+msgid "WPThemes.co.nz"
+msgstr ""
+
+#: functions.php:33
+#@ surfarama
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:102
+#@ surfarama
+msgid "Primary Theme Color"
+msgstr "Цвет темы"
+
+#: functions.php:114
+#@ surfarama
+msgid "Site Title Color"
+msgstr "Цвет заголовка"
+
+#: functions.php:126
+#@ surfarama
+msgid "Main Text Color"
+msgstr "Цвет основного текста"
+
+#: functions.php:138
+#@ surfarama
+msgid "Meta Data Text Color"
+msgstr "Meta Data цвет текста"
+
+#: functions.php:149
+#@ surfarama
+msgid "Post/Page Links Color"
+msgstr "Цвет ссылок"
+
+#: functions.php:161
+#@ surfarama
+msgid "Navigation and Widget Background Color"
+msgstr "Цвет фона навигации и виджетов"
+
+#: functions.php:169
+#@ surfarama
+msgid "Site Logo"
+msgstr "Лого"
+
+#: functions.php:171
+#@ surfarama
+msgid "Upload a logo to replace the default site name in the header"
+msgstr "Загрузить лого"
+
+#: functions.php:179
+#@ surfarama
+msgid "Choose your logo (ideal width is 100-300px and ideal height is 40-100px)"
+msgstr "Выберите логотип"
+
+#: functions.php:187
+#@ surfarama
+msgid "Social Media Icons"
+msgstr "Соц.иконки"
+
+#: functions.php:189
+#@ surfarama
+msgid "Optional media icons in the header"
+msgstr "Соц.иконки в шапке"
+
+#: functions.php:197
+#@ surfarama
+msgid "Enter your Facebook url"
+msgstr ""
+
+#: functions.php:208
+#@ surfarama
+msgid "Enter your Twitter url"
+msgstr ""
+
+#: functions.php:219
+#@ surfarama
+msgid "Enter your Google+ url"
+msgstr ""
+
+#: functions.php:230
+#@ surfarama
+msgid "Enter your Pinterest url"
+msgstr ""
+
+#: functions.php:241
+#@ surfarama
+msgid "Enter your Linkedin url"
+msgstr ""
+
+#: functions.php:252
+#@ surfarama
+msgid "Enter your Youtube url"
+msgstr ""
+
+#: functions.php:263
+#@ surfarama
+msgid "Enter your Tumblr url"
+msgstr ""
+
+#: functions.php:274
+#@ surfarama
+msgid "Enter your Instagram url"
+msgstr ""
+
+#: functions.php:285
+#@ surfarama
+msgid "Enter your Flickr url"
+msgstr ""
+
+#: functions.php:296
+#@ surfarama
+msgid "Enter your Vimeo url"
+msgstr ""
+
+#: functions.php:307
+#@ surfarama
+msgid "Enter your Yelp url"
+msgstr ""
+
+#: functions.php:318
+#@ surfarama
+msgid "Enter your RSS url"
+msgstr ""
+
+#: functions.php:329
+#@ surfarama
+msgid "Enter your email address"
+msgstr ""
+
+#: functions.php:338
+#@ surfarama
+msgid "Display Category Link"
+msgstr ""
+
+#: functions.php:340
+#@ surfarama
+msgid "Option to show/hide the category link in the homepage/category grid posts."
+msgstr "Скрывать/показывать ссылки на категории на главной странице"
+
+#: functions.php:349
+#@ surfarama
+msgid "Show the categories links on homepage?"
+msgstr "Показывать ссылки на категории на главной?"
+
+#: functions.php:356
+#@ surfarama
+msgid "Set Border For Images"
+msgstr "Рамка для изображений"
+
+#: functions.php:358
+#@ surfarama
+msgid "Option to set a border (in pixels) for the homepage images."
+msgstr "&nbsp;"
+
+#: functions.php:366
+#@ surfarama
+msgid "Set the image border (in pixels)"
+msgstr "Ширина рамки для изображения"
+
+#: functions.php:468
+#@ surfarama
+msgid "Category"
+msgstr "Рубрика"
+
+#: functions.php:469
+#@ surfarama
+msgid "Tag"
+msgstr "Метка"
+
+#: functions.php:470
+#@ surfarama
+msgid "Author"
+msgstr "Автор"
+
+#: functions.php:476
+#: functions.php:480
+#@ surfarama
+msgid "Page "
+msgstr "Страница "
+
+#: functions.php:540
+#@ surfarama
+msgid "Home Page Widgets"
+msgstr "Виджеты на главной"
+
+#: functions.php:549
+#@ surfarama
+msgid "Category/Archive Widgets"
+msgstr "Виджет Рубрики/Архивов"
+
+#: functions.php:558
+#@ surfarama
+msgid "Post Widgets"
+msgstr "Виджет записей"
+
+#: functions.php:567
+#@ surfarama
+msgid "Page Widgets"
+msgstr "Виджет страниц"
+
+#: functions.php:576
+#@ surfarama
+msgid "Full Page Widgets"
+msgstr "Виджет страницы на всю ширину"
+
+#: functions.php:597
+#@ surfarama
+msgid "Post navigation"
+msgstr "Навигация по записям"
+
+#: functions.php:601
+#@ surfarama
+msgctxt "Previous post link"
+msgid "&larr; Previous"
+msgstr "&larr; Назад"
+
+#: functions.php:602
+#@ surfarama
+msgctxt "Next post link"
+msgid "Next &rarr;"
+msgstr "Вперед &rarr;"
+
+#: functions.php:607
+#@ surfarama
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие записи"
+
+#: functions.php:611
+#@ surfarama
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Новые записи <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:633
+#@ surfarama
+msgid "Pingback:"
+msgstr "Пингбек:"
+
+#: functions.php:633
+#: functions.php:656
+#@ surfarama
+msgid "(Edit)"
+msgstr "Изменить"
+
+#: functions.php:643
+#, php-format
+#@ surfarama
+msgid "%s"
+msgstr ""
+
+#: functions.php:646
+#@ surfarama
+msgid "Your comment is awaiting moderation."
+msgstr "Комментарий ожидает проверки."
+
+#. translators: 1: date, 2: time
+#: functions.php:654
+#, php-format
+#@ surfarama
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: functions.php:696
+#, php-format
+#@ surfarama
+msgid "<span class=\"sep meta-by\">Author </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span><span class=\"byline\"> <span class=\"sep meta-on\"> Date </span> <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span>"
+msgstr "<span class=\"sep meta-by\">Автор </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span><span class=\"byline\"> <span class=\"sep meta-on\"> Дата </span> <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span>"
+
+#: functions.php:791
+#: functions.php:809
+#@ surfarama
+msgid "Category Color"
+msgstr "Цвет рубрик"
+
+#: functions.php:793
+#: functions.php:812
+#@ surfarama
+msgid "Choose Color for this Category"
+msgstr "Выберите цвет рубрики"
+
+#: functions.php:866
+#, php-format
+#@ surfarama
+msgid "<div class=\"pagination\"><span>Page %1$s of %2$s</span>"
+msgstr "<div class=\"pagination\"><span>Страница %1$s из %2$s</span>"
+
+#: functions.php:867
+#, php-format
+#@ surfarama
+msgid "<a href=\"%1$s\">&laquo; First</a>"
+msgstr "<a href=\"%1$s\">&laquo; Первая</a>"
+
+#: functions.php:868
+#, php-format
+#@ surfarama
+msgid "<a href=\"%1$s\">&lsaquo; Previous</a>"
+msgstr "<a href=\"%1$s\">&lsaquo; Назад</a>"
+
+#: functions.php:878
+#, php-format
+#@ surfarama
+msgid "<a href=\"%1$s\">Next &rsaquo;</a>"
+msgstr "<a href=\"%1$s\">Вперед &rsaquo;</a>"
+
+#: functions.php:879
+#, php-format
+#@ surfarama
+msgid "<a href=\"%1$s\">Last &raquo;</a>"
+msgstr "<a href=\"%1$s\">Последняя &raquo;</a>"
+
+#: header.php:18
+#@ surfarama
+msgid "x"
+msgstr ""
+
+#: header.php:36
+#@ surfarama
+msgid "Facebook"
+msgstr ""
+
+#: header.php:40
+#@ surfarama
+msgid "Twitter"
+msgstr ""
+
+#: header.php:44
+#@ surfarama
+msgid "Google+"
+msgstr ""
+
+#: header.php:48
+#@ surfarama
+msgid "Pinterest"
+msgstr ""
+
+#: header.php:52
+#@ surfarama
+msgid "Linkedin"
+msgstr ""
+
+#: header.php:56
+#@ surfarama
+msgid "Youtube"
+msgstr ""
+
+#: header.php:60
+#@ surfarama
+msgid "Tumblr"
+msgstr ""
+
+#: header.php:64
+#: header.php:68
+#@ surfarama
+msgid "Instagram"
+msgstr ""
+
+#: header.php:72
+#@ surfarama
+msgid "Vimeo"
+msgstr ""
+
+#: header.php:76
+#@ surfarama
+msgid "Yelp"
+msgstr ""
+
+#: header.php:80
+#@ surfarama
+msgid "RSS"
+msgstr ""
+
+#: header.php:84
+#@ surfarama
+msgid "mailto:"
+msgstr ""
+
+#: header.php:84
+#@ surfarama
+msgid "Email"
+msgstr ""
+
+#: header.php:94
+#@ surfarama
+msgid "Main menu"
+msgstr "Главное меню"
+
+#: header.php:95
+#@ surfarama
+msgid "Skip to content"
+msgstr "Перейти к содержанию"
+
+#: image.php:16
+#, php-format
+#@ surfarama
+msgid "Published <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Опубликовано: <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> в <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> в <a href=\"%6$s\" title=\"%7$s\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:30
+#@ surfarama
+msgid "&larr; Previous"
+msgstr "&larr; Назад"
+
+#: image.php:31
+#@ surfarama
+msgid "Next &rarr;"
+msgstr "Вперед &rarr;"
+
+#: image.php:84
+#, php-format
+#@ surfarama
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"\">Комментировать</a> или оставить трекбек: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:86
+#, php-format
+#@ surfarama
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Комментарии закрыты, но вы можете оставить трекбек: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:88
+#@ surfarama
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Трекбеки закрыты, но вы можете оставить <a class=\"comment-link\" href=\"#respond\" title=\"\">комментарий</a>."
+
+#: image.php:90
+#@ surfarama
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Комментарии и трекбеки закрыты."
+
+#: search.php:14
+#, php-format
+#@ surfarama
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: search.php:59
+#@ surfarama
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "К сожалению, ничего не найдено."
+
+#: search.php:62
+#@ surfarama
+msgid "Or you can try these links below."
+msgstr ""
+
+#: sidebar-archive.php:11
+#: sidebar-full.php:11
+#: sidebar-home.php:11
+#: sidebar-page.php:11
+#: sidebar-post.php:11
+#: sidebar.php:11
+#@ surfarama
+msgid "Categories"
+msgstr "Рубрики"
+
+#: sidebar-archive.php:21
+#: sidebar-full.php:21
+#: sidebar-home.php:21
+#: sidebar-page.php:21
+#: sidebar-post.php:21
+#: sidebar.php:21
+#@ surfarama
+msgid "Latest Posts"
+msgstr "Последние записи"
+
+#: sidebar-archive.php:38
+#: sidebar-full.php:38
+#: sidebar-home.php:38
+#: sidebar-page.php:38
+#: sidebar-post.php:38
+#: sidebar.php:38
+#@ surfarama
+msgid "Recent Comments"
+msgstr "Последние комментарии"
+
+#: tag.php:11
+#, php-format
+#@ surfarama
+msgid "Tag Archives: %s"
+msgstr "Метки: %s"
+

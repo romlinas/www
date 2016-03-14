@@ -1,0 +1,356 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Snaps v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-20 07:54:29+0000\n"
+"Last-Translator: admin <dyba03@yandex.ua>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:16
+#@ snaps
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "К сожалению, такой страницы нет."
+
+#: 404.php:20
+#@ snaps
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Не найдено в данной директории. Попробуйте воспользоваться поиском."
+
+#: archive.php:22
+#, php-format
+#@ snaps
+msgid "Category Archives: %s"
+msgstr "Архив рубрики: %s"
+
+#: archive.php:25
+#, php-format
+#@ snaps
+msgid "Tag Archives: %s"
+msgstr "Архив метки: %s"
+
+#: archive.php:32
+#, php-format
+#@ snaps
+msgid "Author Archives: %s"
+msgstr "Архив автора: %s"
+
+#: archive.php:40
+#, php-format
+#@ snaps
+msgid "Daily Archives: %s"
+msgstr "Архив за день: %s"
+
+#: archive.php:43
+#, php-format
+#@ snaps
+msgid "Monthly Archives: %s"
+msgstr "Архив за месяц: %s"
+
+#: archive.php:46
+#, php-format
+#@ snaps
+msgid "Yearly Archives: %s"
+msgstr "Архив за год: %s"
+
+#: archive.php:49
+#@ snaps
+msgid "Archives"
+msgstr "Архив"
+
+#: comments.php:32
+#, php-format
+#@ snaps
+msgctxt "comments title"
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: comments.php:39
+#: comments.php:59
+#@ snaps
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:40
+#: comments.php:60
+#@ snaps
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: comments.php:41
+#: comments.php:61
+#@ snaps
+msgid "Newer Comments &rarr;"
+msgstr "Новые комментарии &rarr;"
+
+#: comments.php:71
+#@ snaps
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: content-page.php:17
+#: content-single.php:56
+#: image.php:94
+#@ snaps
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: content-page.php:19
+#: content-single.php:52
+#: image.php:35
+#: image.php:108
+#@ snaps
+msgid "Edit"
+msgstr "Редактировать"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:20
+#: content-single.php:23
+#@ snaps
+msgid ", "
+msgstr ""
+
+#: content-single.php:28
+#: content-single.php:35
+#, php-format
+#@ snaps
+msgid "<span class=\"entry-meta\">Tags: %2$s</span>"
+msgstr "<span class=\"entry-meta\">Метки: %2$s</span>"
+
+#: content-single.php:34
+#, php-format
+#@ snaps
+msgid "<span class=\"entry-meta\">Categories: %1$s.</span>"
+msgstr "<span class=\"entry-meta\">Рубрики: %1$s.</span>"
+
+#: content-single.php:37
+#, php-format
+#@ snaps
+msgid "<span class=\"entry-meta\">Category: %1$s</span>"
+msgstr "<span class=\"entry-meta\">Рубрика: %1$s</span>"
+
+#: content-single.php:41
+#, php-format
+#@ snaps
+msgid "<span class=\"entry-meta\">Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a></span>"
+msgstr "<span class=\"entry-meta\">Ссылка <a href=\"%3$s\" title=\"%4$s\" rel=\"bookmark\">записи</a></span>"
+
+#: content.php:12
+#, php-format
+#@ snaps
+msgid "Permalink to %s"
+msgstr "%s"
+
+#: footer.php:19
+#@ snaps
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:19
+#, php-format
+#@ snaps
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:20
+#, php-format
+#@ snaps
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:79
+#@ snaps
+msgid "Primary Menu"
+msgstr "Главное меню"
+
+#: functions.php:131
+#@ snaps
+msgid "Footer One"
+msgstr "Футер 1"
+
+#: functions.php:139
+#@ snaps
+msgid "Footer Two"
+msgstr "Футер 2"
+
+#: functions.php:147
+#@ snaps
+msgid "Footer Three"
+msgstr "Футер 3"
+
+#: header.php:41
+#@ snaps
+msgid "Menu"
+msgstr "Меню"
+
+#: header.php:42
+#@ snaps
+msgid "Skip to content"
+msgstr "Перейти к содержанию"
+
+#: image.php:24
+#, php-format
+#@ snaps
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Опубликовано <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> в <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> в <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:39
+#@ snaps
+msgid "&larr; Previous"
+msgstr "&larr; Предыдущие"
+
+#: image.php:40
+#@ snaps
+msgid "Next &rarr;"
+msgstr "Следующие &rarr;"
+
+#: image.php:100
+#, php-format
+#@ snaps
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Комментировать\">Комментировать</a> или оставить трекбек: <a class=\"trackback-link\" href=\"%s\" title=\"Трекбек\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:102
+#, php-format
+#@ snaps
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Комментарии закрыты, но вы можете оставить трекбек: <a class=\"trackback-link\" href=\"%s\" title=\"Трекбек\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:104
+#@ snaps
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Трекбеки закрыты, но вы можете <a class=\"comment-link\" href=\"#respond\" title=\"Оставить комментарий\">оставить комментарий</a>."
+
+#: image.php:106
+#@ snaps
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Комментарии и трекбеки закрыты."
+
+#: inc/extras.php:75
+#, php-format
+#@ snaps
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: inc/template-tags.php:39
+#@ snaps
+msgid "Post navigation"
+msgstr "Навигация по записям"
+
+#: inc/template-tags.php:43
+#@ snaps
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: inc/template-tags.php:44
+#@ snaps
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: inc/template-tags.php:49
+#@ snaps
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие записи"
+
+#: inc/template-tags.php:53
+#@ snaps
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующие записи <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:78
+#@ snaps
+msgid "Pingback:"
+msgstr "Пингбек:"
+
+#: inc/template-tags.php:78
+#: inc/template-tags.php:101
+#@ snaps
+msgid "(Edit)"
+msgstr "Редактировать"
+
+#: inc/template-tags.php:88
+#, php-format
+#@ snaps
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">пишет:</span>"
+
+#: inc/template-tags.php:91
+#@ snaps
+msgid "Your comment is awaiting moderation."
+msgstr "Комментарий ожидает проверки."
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:99
+#, php-format
+#@ snaps
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: inc/template-tags.php:127
+#, php-format
+#@ snaps
+msgid "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> автор <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: inc/template-tags.php:133
+#, php-format
+#@ snaps
+msgid "View all posts by %s"
+msgstr "Все записи автора %s"
+
+#: no-results.php:14
+#@ snaps
+msgid "Nothing Found"
+msgstr "Ничего не найдено."
+
+#: no-results.php:20
+#, php-format
+#@ snaps
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свой первый пост? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: no-results.php:24
+#@ snaps
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "К сожалению, ничего не найдено."
+
+#: no-results.php:29
+#@ snaps
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "К сожалению, ничего не найдено."
+
+#: search.php:17
+#, php-format
+#@ snaps
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: searchform.php:10
+#: searchform.php:12
+#@ snaps
+msgid "Search"
+msgstr "Поиск"
+
+#: searchform.php:11
+#@ snaps
+msgid "Search &hellip;"
+msgstr "Поиск &hellip;"
+

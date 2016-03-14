@@ -1,0 +1,19 @@
+
+<users>
+
+<user ID="47">
+<NumCode>978</NumCode>
+<CharCode>EUR</CharCode>
+</user>
+
+<user ID="44">
+<NumCode>840</NumCode>
+<CharCode>USD</CharCode>
+</user>
+
+<user ID="36">
+<NumCode>643</NumCode>
+<CharCode>RUB</CharCode>
+</user>
+
+</users>

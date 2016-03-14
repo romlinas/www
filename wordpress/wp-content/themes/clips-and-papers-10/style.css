@@ -1,0 +1,141 @@
+/* 
+Theme Name: Clips and Papers
+Description: Business
+Author: Wordpress Themes Creator
+Version: 1.0
+Author URI: http://www.wpthemescreator.com
+*/
+
+         
+body { 
+    font-family: serif ;
+    color:#242422;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background: #070707 url(images/blogbgrepeatkk4.jpg) repeat-y;
+}
+
+  a{
+    color: #242422;
+    text-decoration: none; }
+   
+  a:hover {
+    color: #e9e1c3;
+    background:#d80506;
+    border-bottom: dashed #e9e1c3 2px;}
+        
+textarea, input, select {   
+font-family :georgia; 
+color:#242422;
+font-size: 10px; 
+background:#b1a895;  
+border:1px solid #3b430d
+}
+
+h1#header a, h1#header a:hover {position:absolute;
+top:20px;
+left:570px;
+font:30px georgia, serif;
+color:#e9e1c3;
+text-transform:lowercase;
+}
+
+h1#header a:hover {background:none}
+
+#tagline {display:none}
+
+div.storydate {
+	font-family: century gothic;
+    font-size:10px;
+    font-weight: bold;
+}
+
+
+
+h2 {font-family: century gothic;
+    font-size: 14px;
+    text-transform: lowercase;
+    color:  #3b430d;
+    text-align:right;
+    border-bottom:2px #3b430d solid;
+    padding:0}
+
+h3 a, h3 a:hover {color:#e9e1c3}
+
+
+ol#commentlist li, blockquote {
+padding: 5px;
+background:#6d4a19;
+border: 1px #070707 solid
+}
+
+
+img.gravatar {float:left;
+width:100px;
+margin-right:5px}
+
+ol#commentlist {list-style-type:none;
+margin-left:0;
+padding:0}
+
+
+#rap {
+background: url(images/blogbgqa2.jpg) no-repeat;
+padding-top:600px
+}
+
+
+#container {
+}
+
+#content {position: absolute; 
+top: 270px;
+left: 200px; 
+width:250px;
+padding:5px
+}
+
+#menu {
+position: absolute; 
+left: 550px; 
+top: 300px;
+width: 150px;
+    font-family: century gothic;
+    color: #070707;
+    font-size: 10px;
+    padding: 0 5px;
+
+}
+
+#menu ul {list-style-type:none;
+margin:0;
+padding:0
+}
+
+#wp-calendar {margin:auto;
+text-align:center}
+
+#wp-calendar caption {margin:auto;
+font-weight:bold
+}
+
+#wp-calendar tbody td a {font-weight:bold;
+}
+
+
+
+div.feedback, p.commentmeta {margin-top:0px;
+border-top: 1px #e9e1c3 solid;
+clear:both;
+font-style:italic}
+
+a img {border:0}
+
+#content, #menu {overflow:hidden}
+
+#content img {max-width:90%}
+
+
+
+

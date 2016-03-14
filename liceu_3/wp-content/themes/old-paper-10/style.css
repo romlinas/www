@@ -1,0 +1,440 @@
+/*
+Theme Name: Old Paper
+Theme URI: http://www.wptown.com/
+Description: Old Paper Theme is a unique Widget ready WordPress theme with 2 columns, right sidebar and fixed width. Tested on Firefox, Internet Explorer 6, 7 and Opera. Theme is XHTML/CSS valid and SEO friendly.
+Version: 1.0
+Author: WP Town
+Author URI: http://www.wptown.com/
+Tags: white, gray, black, red, 2 columns, widget ready, old look, right sidebar, fixed width, seo friendly
+*/
+
+
+
+/* General */
+
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+img {
+	border: 0;
+}
+
+.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+
+/* Page */
+
+#page {
+	margin: 0 auto;
+	width: 1004px;
+}
+
+
+/* Header */
+
+#header {
+	width: 1004px;
+	height: 245px;
+	background: url("images/header.jpg") no-repeat;
+	position: relative;
+}
+
+	/* Header - Info */
+	
+	#header #header-info {
+		position: absolute;
+		top: 104px;
+		left: 174px;
+		width: 780px;
+		text-align: center;
+	}
+	
+	#header #header-info h1 {
+		color: #ff0000;
+		font: normal 35px "Lucida Calligraphy", Georgia, Verdana;
+		padding-bottom: 5px;
+	}
+	
+	#header #header-info h1 a {
+		color: #ff0000;
+		text-decoration: none;
+	}
+	
+	#header #header-info .description {
+		color: #ff0000;
+		font: normal 18px "Lucida Calligraphy", Georgia, Verdana;
+	}
+
+
+/* Main */
+
+#main {
+	width: 1004px;
+	background: url("images/main.gif") repeat-y;
+	min-height: 199px;
+}
+
+#main-top {
+	width: 1004px;
+	height: 55px;
+	background: url("images/main_top.gif") no-repeat;
+}
+
+#main-bottom {
+	width: 1004px;
+	height: 55px;
+	background: url("images/main_bottom.gif") no-repeat left bottom;
+}
+
+	/* Main - Content */
+	
+	#content {
+		float: left;
+		width: 680px;
+		padding: 0 70px 0 30px;
+	}
+	
+	/* Main - Content - Post */
+	
+	#content .post {
+		float: left;
+		margin-bottom: 20px;
+		width: 680px;
+	}
+	
+		/* Post - Title */
+		
+		#content .post .post-title {
+			width: 680px;
+			height: 71px;
+			background: url("images/post_title.jpg") no-repeat;
+			color: #000000;
+		}
+		
+		#content .post .post-title .post-date {
+			float: left;
+			text-align: center;
+			text-transform: lowercase;
+			color: #000000;
+			width: 70px;
+			height: 71px;
+			margin-right: 10px;
+			font: oblique 23px Georgia, Verdana;
+		}
+		
+		#content .post .post-title .post-date span {
+			padding-top: 3px;
+			display: block;
+		}
+		
+		#content .post .post-title h2 {
+			color: #000000;
+			font: italic 26px Georgia, Verdana;
+			padding-top: 22px;
+		}
+		
+		#content .post .post-title h2 a {
+			color: #000000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-title h2 a:hover {
+			text-decoration: underline;
+		}
+		
+		/* Post - Entry */
+		
+		#content .post .post-entry {
+			font: normal 13px/18px "Courier New", Verdana;
+			color: #000000;
+			padding: 0 10px;
+			width: 660px;
+		}
+		
+		#content .post .post-entry a {
+			color: #ff0000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-entry a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .post-entry a.more-link {
+			font: bold 13px/20px "Courier New", Verdana;
+			float: right;
+			margin-bottom: 5px;
+			color: #ff0000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-entry a.more-link:hover {
+			text-decoration: underline;
+		}
+		
+		/* Post - Info */
+		
+		#content .post .post-info {
+			clear: both;
+			font: normal 13px/26px "Courier New", Verdana;
+			color: #000000;
+			padding: 5px 10px 0 10px;
+			width: 660px;
+			text-align: right;
+		}
+		
+			#content .post .post-info span {
+				color: #ff0000;
+			}
+		
+		#content .post .post-info a {
+			color: #ff0000;
+			text-decoration: none;
+		}
+		
+		#content .post .post-info a:hover {
+			text-decoration: underline;
+		}
+		
+		/* Post - Subtitle */
+		
+		#content .post h3 {
+			margin-top: 25px;
+			color: #000000;
+			font: italic 21px Georgia, Verdana;
+		}
+		
+		/* Post - Comments */
+		
+		#content .post .comments {
+			font: normal 13px/18px "Courier New", Verdana;
+			color: #000000;
+			width: 660px;
+		}
+		
+		#content .post .comments ol {
+			margin: 10px 0;
+			padding-left: 25px;
+		}
+		
+		#content .post .comments ol li {
+			padding: 5px;
+			border-bottom: 1px dashed #ff0000;
+			margin-bottom: 7px;
+		}
+		
+		#content .post .comments ol li a {
+			color: #ff0000;
+			text-decoration: none;
+		}
+		
+		#content .post .comments ol li a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .comments ol li cite {
+			color: #ff0000;
+			font-style: normal;
+			font-weight: bold;
+		}
+		
+		#content .post .comments ol li cite a {
+			color: #ff0000;
+			text-decoration: none;
+		}
+		
+		#content .post .comments ol li cite a:hover {
+			text-decoration: underline;
+		}
+		
+		#content .post .comments ol li .commentmetadata a {
+			color: #ff0000;
+			text-decoration: none;
+		}
+		
+		#content .post .comments ol li .commentmetadata a:hover {
+			text-decoration: underline;
+		}
+		
+		/* Post - Comment Form */
+		
+		#content .post #commentform {
+			font: normal 13px/18px "Courier New", Verdana;
+			color: #000000;
+			width: 635px;
+			padding-left: 25px;
+			margin: 0;
+			float: left;
+		}
+		
+		#content .post #commentform a {
+			color: #ff0000;
+			text-decoration: none;
+		}
+		
+		#content .post #commentform a:hover {
+			text-decoration: underline;
+		}
+	
+	/* Main - Content - Navigation */
+	
+	#content .navigation {
+		font: bold 13px/18px "Courier New", Verdana;
+		color: #000000;
+		padding: 0 10px;
+		width: 660px;
+		float: left;
+		margin-bottom: 20px;
+	}
+	
+	#content .navigation a {
+		color: #ff0000;
+		text-decoration: none;
+	}
+	
+	#content .navigation a:hover {
+		text-decoration: underline;
+	}
+	
+		#content .navigation .navigation-previous {
+			float: left;
+		}
+		
+		#content .navigation .navigation-next {
+			float: right;
+		}
+	
+	/* Main - Sidebar */
+	
+	#sidebar {
+		float: left;
+		width: 200px;
+		text-align: center;
+		color: #000000;
+		font: normal 13px/18px "Courier New", Verdana;
+		margin-top: -27px;
+	}
+	
+	#sidebar a {
+		color: #ff0000;
+		text-decoration: none;
+	}
+	
+	#sidebar a:hover {
+		text-decoration: underline;
+	}
+	
+	/* Main - Sidebar - Boxes */
+	
+	#sidebar .sidebar-box {
+		width: 200px;
+		margin-bottom: 20px;
+	}
+	
+		/* Sidebar - Titles */
+		
+		#sidebar h3 {
+			font: italic 21px Georgia, Verdana;
+			color: #000000;
+			padding-bottom: 5px;
+		}
+		
+		/* Sidebar - Menus */
+		
+		#sidebar ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+		
+		#sidebar ul li {
+			color: #ff0000;
+			font: normal 14px/25px "Courier New", Verdana;
+		}
+		
+		#sidebar ul li a {
+			color: #ff0000;
+			text-decoration: none;
+		}
+		
+		#sidebar ul li a:hover {
+			text-decoration: underline;
+		}
+		
+		/* Sidebar - Forms */
+		
+		#sidebar #searchform {
+			margin: 0;
+			padding: 20px 0;
+			width: 200px;
+			text-align: center;
+		}
+		
+		#sidebar #searchform #s {
+			width: 140px;
+		}
+		
+		/* Sidebar - Tables */
+		
+		#sidebar #calendar_wrap {
+			margin: 0 auto;
+			width: 145px;
+			padding-top: 3px;
+		}
+		
+		#sidebar #calendar_wrap caption {
+			font-weight: bold;
+		}
+		
+		#sidebar #calendar_wrap tbody {
+			text-align: right;
+		}
+		
+		#sidebar #calendar_wrap tfoot #prev {
+			text-align: left;
+		}
+		
+		#sidebar #calendar_wrap tfoot #next {
+			text-align: right;
+		}
+		
+		#sidebar #calendar_wrap #today {
+			font-weight: bold;
+		}
+		
+		/* Sidebar - Texts */
+		
+		#sidebar .textwidget {
+			text-align: left;
+			padding: 0 0px;
+		}
+
+
+/* Footer */
+
+#footer {
+	width: 1004px;
+	height: 80px;
+	background: url("images/footer.jpg") no-repeat;
+	color: #000000;
+	font: normal 13px/58px "Courier New", Verdana;
+	text-align: center;
+}
+
+#footer a {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}

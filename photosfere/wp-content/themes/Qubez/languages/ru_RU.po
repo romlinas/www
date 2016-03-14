@@ -1,0 +1,673 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Qubez v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-11-16 09:37+0300\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../../../..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ fabthemes
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Страница не найдена."
+
+# @ fabthemes
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "По данному адресу ничего не найдено. Воспользуйтесь поиском."
+
+# @ themeslug
+#: FT/FT_scope.php:82
+msgid "Site Logo"
+msgstr "Логотип сайта"
+
+# @ fabthemes
+#: FT/FT_scope.php:97
+msgid "Maximum width (px)"
+msgstr "Максимальная ширина (пикс)"
+
+# @ fabthemes
+#: FT/FT_scope.php:106
+msgid "Maximum height (px)"
+msgstr "Максимальная высота (пикс)"
+
+# @ optionsframework
+# @ ft_op
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:92
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:93
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:338
+msgid "Theme Options"
+msgstr "Опции темы"
+
+# @ ft_op
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:208
+msgid "Save Options"
+msgstr "Сохранить настройки"
+
+# @ ft_op
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:209
+msgid "Restore Defaults"
+msgstr "По умолчанию"
+
+# @ ft_op
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:209
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Нажмите кнопку OK, чтобы сбросить. Все ваши настройки для темы будут потеряны!"
+
+# @ ft_op
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:239
+msgid "Default options restored."
+msgstr "Настройки по умолчанию восстановлены."
+
+# @ ft_op
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:291
+msgid "Options saved."
+msgstr "Настройки сохранены."
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr "Файл не выбран"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:66
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr "Загрузка"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:68
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr "Удалить"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr "Обновите версию WordPress для полной медиа-поддержки."
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr "Просмотреть файл"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:277
+msgid "No Repeat"
+msgstr "Без повтора"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:278
+msgid "Repeat Horizontally"
+msgstr "Повторить по горизонтали"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:279
+msgid "Repeat Vertically"
+msgstr "Повторить по вертикали"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:280
+msgid "Repeat All"
+msgstr "Повторить все"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:293
+msgid "Top Left"
+msgstr "Сверху Слева"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:294
+msgid "Top Center"
+msgstr "Сверху по центру"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:295
+msgid "Top Right"
+msgstr "Сверху Справа"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:296
+msgid "Middle Left"
+msgstr "Посередине слева"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:297
+msgid "Middle Center"
+msgstr "Посередине по центру"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:298
+msgid "Middle Right"
+msgstr "Посередине справа"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:299
+msgid "Bottom Left"
+msgstr "Снизу слева"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:300
+msgid "Bottom Center"
+msgstr "Снизу по центру"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:301
+msgid "Bottom Right"
+msgstr "Снизу справа"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:314
+msgid "Scroll Normally"
+msgstr "Нормальная прокрутка"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:315
+msgid "Fixed in Place"
+msgstr "Зафиксировать на месте"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:389
+msgid "Normal"
+msgstr "Нормальный"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:390
+msgid "Italic"
+msgstr "Курсив"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:391
+msgid "Bold"
+msgstr "Жирный"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:392
+msgid "Bold Italic"
+msgstr "Жирный курсив"
+
+# @ fabthemes
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Один комментарий для &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Комментариев для &ldquo;%2$s&rdquo;"
+
+# @ fabthemes
+#: comments.php:40 comments.php:62
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+# @ fabthemes
+#: comments.php:43 comments.php:65
+msgid "Older Comments"
+msgstr "Старые  комментарии"
+
+# @ fabthemes
+#: comments.php:44 comments.php:66
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+# @ fabthemes
+#: comments.php:78
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто"
+
+# @ fabthemes
+#: functions.php:47
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+# @ fabthemes
+#: functions.php:103
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+# @ fabthemes
+#: functions.php:113
+msgid "Footer"
+msgstr "Нижняя часть"
+
+# @ tgmpa
+#: inc/add-plugins.php:109 inc/class-tgm-plugin-activation.php:196
+msgid "Install Required Plugins"
+msgstr "Установить дополнительные плагины"
+
+# @ tgmpa
+#: inc/add-plugins.php:110 inc/class-tgm-plugin-activation.php:197
+msgid "Install Plugins"
+msgstr "Установка плагинов"
+
+# @ tgmpa
+#: inc/add-plugins.php:111 inc/class-tgm-plugin-activation.php:198
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+# @ tgmpa
+#: inc/add-plugins.php:112
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагина."
+
+# @ fabthemes
+#: inc/add-plugins.php:113 inc/class-tgm-plugin-activation.php:200
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] "Для этой темы требуется следующей плагин:%1$s."
+
+# @ fabthemes
+#: inc/add-plugins.php:114 inc/class-tgm-plugin-activation.php:201
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fabthemes
+#: inc/add-plugins.php:115 inc/class-tgm-plugin-activation.php:202
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fabthemes
+#: inc/add-plugins.php:116 inc/class-tgm-plugin-activation.php:203
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fabthemes
+#: inc/add-plugins.php:117 inc/class-tgm-plugin-activation.php:204
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fabthemes
+#: inc/add-plugins.php:118 inc/class-tgm-plugin-activation.php:205
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fabthemes
+#: inc/add-plugins.php:119 inc/class-tgm-plugin-activation.php:206
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fabthemes
+#: inc/add-plugins.php:120 inc/class-tgm-plugin-activation.php:207
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fabthemes
+#: inc/add-plugins.php:121 inc/class-tgm-plugin-activation.php:208
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ fabthemes
+#: inc/add-plugins.php:122 inc/class-tgm-plugin-activation.php:209
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tgmpa
+#: inc/add-plugins.php:123 inc/class-tgm-plugin-activation.php:210
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+# @ tgmpa
+#: inc/add-plugins.php:124 inc/class-tgm-plugin-activation.php:212
+#: inc/class-tgm-plugin-activation.php:1951
+msgid "Plugin activated successfully."
+msgstr ""
+
+# @ tgmpa
+#: inc/add-plugins.php:125
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "все плагины успешно установлены  и активированы. %1$s"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr "Игнорировать это уведомление"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:544
+#: inc/class-tgm-plugin-activation.php:2168
+msgid "Return to the Dashboard"
+msgstr "Вернуться в консоль"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1174
+msgid "Private Repository"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1177
+msgid "Pre-Packaged"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1182
+msgid "WordPress Repository"
+msgstr "WordPress хранилище"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1185
+msgid "Required"
+msgstr "Обязательно"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1185
+msgid "Recommended"
+msgstr "Рекомендуемое"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1188
+msgid "Not Installed"
+msgstr "Не установлено"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1190
+msgid "Installed But Not Activated"
+msgstr "Установлен, но не активирован"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1290
+#: inc/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr "Усстановить"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1312
+#: inc/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr "Активировать"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr "Не найдено плагинов для установки или активации. <a href=\"%1$s\" title=\"Вернуться в консоль\">Вернуться в консоль</a>"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr "Плагин"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr "Источник"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr "Тип"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr "Статус"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1508
+msgid "No plugins are available to be installed at this time."
+msgstr "Нет плагинов для установки."
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1616
+msgid "No plugins are available to be activated at this time."
+msgstr "Нет плагинов для активации в это время."
+
+# @ tgmpa
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: inc/class-tgm-plugin-activation.php:1638
+#: inc/class-tgm-plugin-activation.php:213
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] "Плагин успешно активирован:"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1934
+msgid "Install package not available."
+msgstr "Пакет установки, не доступный."
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1935
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Загрузить пакет установки из <span class=\"code\">%s</span>&#8230;"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1936
+msgid "Unpacking the package&#8230;"
+msgstr "Распаковка пакета &#8230;"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1937
+msgid "Installing the plugin&#8230;"
+msgstr "Установка плагина &#8230;"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1938
+msgid "Plugin install failed."
+msgstr "Не удалось установить плагин."
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1939
+msgid "Plugin installed successfully."
+msgstr "Плагин успешно установлен."
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1950
+msgid "Plugin activation failed."
+msgstr "Не удалось активировать плагин."
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2064
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Запущен процесс установки и активации. Этот процесс может занять некоторое время на разных хостинга."
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2065
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s установлен и успешно активирован."
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2065
+#: inc/class-tgm-plugin-activation.php:2074
+msgid "Show Details"
+msgstr "Показать детали"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2065
+#: inc/class-tgm-plugin-activation.php:2074
+msgid "Hide Details"
+msgstr "Скрыть детали"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2066
+msgid "All installations and activations have been completed."
+msgstr "Все установки и активации завершены."
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2071
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Запущен процесс установки. Этот процесс может занять некоторое время на разных хостингах."
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Произошла ошибка при установке %1$s: <strong>%2$s</strong>."
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2073
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Не удалось установить %1$s."
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s успешно установлен."
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2075
+msgid "All installations have been completed."
+msgstr "Все установки были завершены."
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2076
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина  %1$s (%2$d/%3$d)"
+
+# @ fabthemes
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Опубликовано %1$s"
+
+# @ fabthemes
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "от %s"
+
+# @ fabthemes
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+# @ fabthemes
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Категории: %1$s"
+
+# @ fabthemes
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Метки: %1$s"
+
+# @ fabthemes
+#: inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr "Комментировать"
+
+# @ fabthemes
+#: inc/template-tags.php:64
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+# @ fabthemes
+#: inc/template-tags.php:64
+msgid "% Comments"
+msgstr "% Комментариев"
+
+# @ fabthemes
+#. translators: %s: Name of current post
+#: inc/template-tags.php:71 template-parts/content-page.php:30
+#, php-format
+msgid "Edit %s"
+msgstr "Редактировать %s"
+
+# @ fabthemes
+#: search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+# @ fabthemes
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+# @ fabthemes
+#: template-parts/content-none.php:20
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Хотите опубликовать первую запись? <a href=\"%1$s\">начните здесь</a>."
+
+# @ fabthemes
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, но ничего не найдено. Пожалуйста, попробуйте еще раз с другими ключевыми словами."
+
+# @ fabthemes
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем &rsquo;t найти то, &rsquo; что вы ищете. Возможно, вам поможет поиск."
+
+# @ fabthemes
+#: template-parts/content-page.php:19 template-parts/content-single.php:40
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ fabthemes
+#: template-parts/content-single.php:29
+msgid "Posted by "
+msgstr "Опубликовал "

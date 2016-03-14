@@ -1,0 +1,600 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Trance v10.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-11-03 17:47+0300\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ trance
+#: 404.php:15
+msgid "Sorry Mate ! Nothing here."
+msgstr "Извините. Ничего не найдено"
+
+# @ trance
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Try searching for it."
+msgstr "К сожалению, по вашему запросу ничего не найдено"
+
+# @ trance
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Один комментарий для &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Комментариев для &ldquo;%2$s&rdquo;"
+
+# @ trance
+#: comments.php:38 comments.php:60
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+# @ trance
+#: comments.php:41 comments.php:63
+msgid "Older Comments"
+msgstr "Старые  комментарии"
+
+# @ trance
+#: comments.php:42 comments.php:64
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+# @ trance
+#: comments.php:76
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто"
+
+# @ trance
+#: functions.php:56 header.php:23
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+# @ trance
+#: functions.php:99
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+# @ trance
+#: functions.php:109
+msgid "Footer Widget 1"
+msgstr ""
+
+# @ trance
+#: functions.php:111
+msgid "The left-most widget column in the footer"
+msgstr ""
+
+# @ trance
+#: functions.php:119
+msgid "Footer Widget 2"
+msgstr ""
+
+# @ trance
+#: functions.php:121
+msgid "The second widget column in the footer"
+msgstr ""
+
+# @ trance
+#: functions.php:129
+msgid "Footer Widget 3"
+msgstr ""
+
+# @ trance
+#: functions.php:131
+msgid "The third widget column in the footer"
+msgstr ""
+
+# @ trance
+#: functions.php:139
+msgid "Footer Widget 4"
+msgstr ""
+
+# @ trance
+#: functions.php:141
+msgid "The last widget column in the footer"
+msgstr ""
+
+# @ trance
+#: functions.php:185
+msgctxt "Play font: on or off"
+msgid "on"
+msgstr ""
+
+# @ trance
+#: functions.php:187
+msgctxt "Maven Pro font: on or off"
+msgid "on"
+msgstr ""
+
+# @ trance
+#: functions.php:268
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+# @ trance
+#: functions.php:271
+msgid "Your comment is awaiting moderation."
+msgstr "Спасибо! Ваш комментарий ожидает проверки."
+
+# @ trance
+#. translators: 1: date, 2: time
+#: functions.php:278 inc/template-tags.php:111 inc/template-tags.php:117
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+# @ trance
+#: functions.php:278
+msgid "(Edit)"
+msgstr "(Изменить)"
+
+# @ trance
+#: header.php:29
+msgid "Skip to content"
+msgstr "Наверх"
+
+# @ trance
+#: header.php:61
+msgid "Search"
+msgstr "Поиск"
+
+# @ trance
+#: header.php:87 inc/customizer.php:612
+msgid "Most Popular"
+msgstr "Популярные"
+
+# @ trance
+#: home.php:16
+msgid "RECENT POSTS"
+msgstr "Последнее"
+
+# @ trance
+#: inc/customizer.php:23
+msgid "Layout Settings"
+msgstr "Расположение"
+
+# @ trance
+#: inc/customizer.php:24
+msgid "Manage the Layout Settings of your site."
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:40
+msgid "Show Featured Image in the Post."
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:58
+msgid "Select the Sidebar orientation for the site"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:80
+msgid "Enable Hover effect for Header Image"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:98
+msgid "Make Home Page Content Full Width"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:107
+msgid "Social Settings"
+msgstr "Социальные сети"
+
+# @ trance
+#: inc/customizer.php:108
+msgid "Manage the Social Icon Settings of your site."
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:124
+msgid "Enable Social Icons"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:142
+msgid "Select the icons to be displayed"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:164
+msgid "Facebook URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:181
+msgid "Twitter URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:198
+msgid "Google+ URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:215
+msgid "Instagram URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:232
+msgid "Flickr URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:249
+msgid "Pinterest URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:266
+msgid "YouTube URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:283
+msgid "RSS URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:300
+msgid "LinkedIn URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:317
+msgid "StumbleUpon URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:334
+msgid "Contact Page URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:351
+msgid "SoundCloud URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:368
+msgid "Vimeo URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:387
+msgid "OR Logo Upload"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:407
+msgid "Upload a Favicon"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:408
+msgid "Supported formats are .ico, .jpg, .png but .ico is preferred"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:420
+msgid "Slider Settings"
+msgstr "Настройка Слайдера"
+
+# @ trance
+#: inc/customizer.php:427 inc/customizer.php:444
+msgid "Enable Slider"
+msgstr "Включить Слайдер"
+
+# @ trance
+#: inc/customizer.php:452
+msgid "Slide 1"
+msgstr "Слайд 1"
+
+# @ trance
+#: inc/customizer.php:468 inc/customizer.php:521 inc/customizer.php:574
+msgid "Slide Upload"
+msgstr "Загрузка слайда"
+
+# @ trance
+#: inc/customizer.php:483 inc/customizer.php:536 inc/customizer.php:589
+msgid "Description"
+msgstr "Описание"
+
+# @ trance
+#: inc/customizer.php:497 inc/customizer.php:550 inc/customizer.php:603
+msgid "URL"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:505
+msgid "Slide 2"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:558
+msgid "Slide 3"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:613
+msgid "Settings for the 'Most Popular' section of the theme"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:629
+msgid "Hide Most Popular Section"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:648
+msgid "The Background Image"
+msgstr "Фоновое изображение"
+
+# @ trance
+#: inc/customizer.php:669
+msgid "Title Color"
+msgstr "Цвет заголовка"
+
+# @ trance
+#: inc/customizer.php:691
+msgid "Description Color"
+msgstr "Описание Цвет"
+
+# @ trance
+#: inc/customizer.php:702
+msgid "GO PRO !!!"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:703
+msgid "<i style=\"font-size: 13px;\">Thankyou all for showing an amazing response to Trance WordPress theme. Really appreciate it. <br><br>For those who wish to take their site to the next level, I present to you <a href=\"http://www.divjot.co/product/trance-plus\"><b style=\"color: #3d88bc\">Trance Plus</b></a>.<br><br>The upgrade for trance is now available with some awesome features for your site. Featured Areas, Sliders, Layouts and much more features to beautify your site. <br><br>Also, more features to be added with regular updates.<br><br> Did I mention personal dedicated support for the theme? Dedicated support will be provided with the theme. <br><br> You can get <b>Trance Plus</b> <a href=\"http://www.divjot.co/product/trance-plus\">here</a></i>"
+msgstr ""
+
+# @ trance
+#: inc/customizer.php:734
+msgid "Hide s section forever."
+msgstr ""
+
+# @ trance
+#: inc/extras.php:52
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+# @ trance
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "Навигация по записи"
+
+# @ trance
+#: inc/template-tags.php:59
+msgid "Previous"
+msgstr "Назад"
+
+# @ trance
+#: inc/template-tags.php:87
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+# @ trance
+#: inc/template-tags.php:92
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+# @ trance
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:109 inc/template-tags.php:115
+msgid ", "
+msgstr ""
+
+# @ trance
+#: inc/template-tags.php:123
+msgid "Leave a comment"
+msgstr "Комментировать"
+
+# @ trance
+#: inc/template-tags.php:123
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+# @ trance
+#: inc/template-tags.php:123
+msgid "% Comments"
+msgstr "% Комментариев"
+
+# @ trance
+#: inc/template-tags.php:127 template-parts/content-page.php:24
+msgid "Edit"
+msgstr "Редактировать"
+
+# @ trance
+#: inc/template-tags.php:144
+#, php-format
+msgid "Category: %s"
+msgstr "Категория: %s"
+
+# @ trance
+#: inc/template-tags.php:146
+#, php-format
+msgid "Tag: %s"
+msgstr "Метки: %s"
+
+# @ trance
+#: inc/template-tags.php:148
+#, php-format
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+# @ trance
+#: inc/template-tags.php:150
+#, php-format
+msgid "Year: %s"
+msgstr "Год: %s"
+
+# @ trance
+#: inc/template-tags.php:150
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+# @ trance
+#: inc/template-tags.php:152
+#, php-format
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+# @ trance
+#: inc/template-tags.php:152
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+# @ trance
+#: inc/template-tags.php:154
+#, php-format
+msgid "Day: %s"
+msgstr "День: %s"
+
+# @ trance
+#: inc/template-tags.php:154
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+# @ trance
+#: inc/template-tags.php:157
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Заметки"
+
+# @ trance
+#: inc/template-tags.php:159
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Галереи"
+
+# @ trance
+#: inc/template-tags.php:161
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Изображения"
+
+# @ trance
+#: inc/template-tags.php:163
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Видео"
+
+# @ trance
+#: inc/template-tags.php:165
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Цитаты"
+
+# @ trance
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Ссылки"
+
+# @ trance
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Статусы"
+
+# @ trance
+#: inc/template-tags.php:171
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Аудио"
+
+# @ trance
+#: inc/template-tags.php:173
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Чаты"
+
+# @ trance
+#: inc/template-tags.php:176
+#, php-format
+msgid "Archives: %s"
+msgstr "Архивы: %s"
+
+# @ trance
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:180
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+# @ trance
+#: inc/template-tags.php:182
+msgid "Archives"
+msgstr "Архивы"
+
+# @ trance
+#: most-popular.php:61
+msgid "Oops, there are no posts. Browse Some posts to fill this area."
+msgstr ""
+
+# @ trance
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+# @ trance
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: template-parts/content-home.php:39 template-parts/content.php:39
+msgid "READ MORE"
+msgstr "ПОДРОБНЕЕ"
+
+# @ trance
+#: template-parts/content-home.php:42 template-parts/content-page.php:18
+#: template-parts/content-single.php:30 template-parts/content.php:42
+msgid "Pages:"
+msgstr "Страницы: "
+
+# @ trance
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+# @ trance
+#: template-parts/content-none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы разместить свою первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+# @ trance
+#: template-parts/content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, но ничего не найдено. Пожалуйста, попробуйте еще раз с другими ключевыми словами."
+
+# @ trance
+#: template-parts/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."

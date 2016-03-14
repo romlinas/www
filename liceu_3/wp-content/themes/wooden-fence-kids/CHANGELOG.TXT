@@ -1,0 +1,6 @@
+http://www.templatelite.com/wooden-fence-free-wordpress-theme/
+
+VERSION DATE        TYPE    CHANGES
++-------+-----------+-------+----------------------------------------------------------------------------------+
+1.00    2009/05/06  New     New release.
+

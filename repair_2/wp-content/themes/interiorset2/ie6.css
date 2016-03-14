@@ -1,0 +1,22 @@
+
+#navlist {
+	right: 0;
+	right: 34px;
+	width: 940px;
+}
+
+#navlist ul {
+	float: left;
+}
+
+#navlist ul li a {
+	float: left;
+}
+
+#listmenu ul li a {
+	float: left;
+}
+
+#sidebar ul li a {
+	height: 15px;
+}

@@ -1,0 +1,920 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sixteen v10.1.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-11-25 10:50+0200\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ sixteen
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ошибка 404. Страница не найдена"
+
+# @ sixteen
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "По данному адресу ничего не найдено. Воспользуйтесь поиском."
+
+# @ sixteen
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Популярная категория"
+
+# @ sixteen
+#. translators: %1$s: smiley
+#: 404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Попробуйте посмотреть в ежемесячных архивах. %1$s"
+
+# @ sixteen
+#: archive.php:31
+#, php-format
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+# @ sixteen
+#: archive.php:39
+#, php-format
+msgid "Day: %s"
+msgstr "День: %s"
+
+# @ sixteen
+#: archive.php:42
+#, php-format
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+# @ sixteen
+#: archive.php:45
+#, php-format
+msgid "Year: %s"
+msgstr "Год: %s"
+
+# @ sixteen
+#: archive.php:48
+msgid "Asides"
+msgstr ""
+
+# @ sixteen
+#: archive.php:51
+msgid "Images"
+msgstr ""
+
+# @ sixteen
+#: archive.php:54
+msgid "Videos"
+msgstr ""
+
+# @ sixteen
+#: archive.php:57
+msgid "Quotes"
+msgstr ""
+
+# @ sixteen
+#: archive.php:60
+msgid "Links"
+msgstr ""
+
+# @ sixteen
+#: archive.php:63 sidebar.php:17
+msgid "Archives"
+msgstr "Архивы"
+
+# @ sixteen
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Один комментарий на &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментарии на &ldquo;%2$s&rdquo;"
+
+# @ sixteen
+#: comments.php:36 comments.php:56
+msgid "Comment navigation"
+msgstr "Комментарий навигация"
+
+# @ sixteen
+#: comments.php:37 comments.php:57
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+# @ sixteen
+#: comments.php:38 comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+# @ sixteen
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+# @ sixteen
+#: content-page.php:18 content-single.php:25 content.php:27 image.php:58
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ sixteen
+#: content-page.php:23 content-single.php:64 content.php:61 image.php:32
+#: image.php:64 inc/template-tags.php:71 inc/template-tags.php:90
+msgid "Edit"
+msgstr "Редактировать"
+
+# @ sixteen
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:34 content-single.php:37 content.php:38 content.php:48
+msgid ", "
+msgstr ""
+
+# @ sixteen
+#: content-single.php:42
+#, php-format
+msgid "This entry was tagged %2$s."
+msgstr "Запись отмечена %2$s."
+
+# @ sixteen
+#: content-single.php:50
+#, php-format
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr "Запись опубликована в %1$s метки %2$s."
+
+# @ sixteen
+#: content-single.php:52
+#, php-format
+msgid "This entry was posted in %1$s."
+msgstr "Запись опубликована в %1$s."
+
+# @ sixteen
+#: content.php:24
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее <span class=\"meta-nav\">&rarr;</span>"
+
+# @ sixteen
+#: content.php:42
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Категория: %1$s"
+
+# @ sixteen
+#: content.php:52
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Метки: %1$s"
+
+# @ sixteen
+#: content.php:58
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+# @ sixteen
+#: content.php:58
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+# @ sixteen
+#: content.php:58
+msgid "% Comments"
+msgstr "% Комментарии"
+
+# @ sixteen
+#: footer.php:19
+#, php-format
+msgid "Sixteen Theme by %1$s"
+msgstr ""
+
+# @ sixteen
+#: functions.php:30
+msgid "Primary Menu"
+msgstr "Главное меню"
+
+# @ sixteen
+#: functions.php:44
+msgid "Primary Sidebar"
+msgstr "Главный Sidebar"
+
+# @ sixteen
+#: functions.php:53
+msgid "Footer Left"
+msgstr "Footer лево"
+
+# @ sixteen
+#: functions.php:62
+msgid "Footer Center"
+msgstr "Footer центр"
+
+# @ sixteen
+#: functions.php:71
+msgid "Footer Right"
+msgstr "Footer право"
+
+# @ sixteen
+#: header.php:63
+msgid "Menu"
+msgstr "Меню"
+
+# @ sixteen
+#: header.php:64
+msgid "Skip to content"
+msgstr "Наверх"
+
+# @ sixteen
+#: home.php:16
+msgid "Recent Posts"
+msgstr "Последние записи"
+
+# @ sixteen
+#: image.php:22
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+"Опубликовано <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> - <a href=\"%3$s\">%4$s &times; %5$s</a> - <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+
+# @ sixteen
+#: image.php:37
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Назад"
+
+# @ sixteen
+#: image.php:38
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Вперед <span class=\"meta-nav\">&rarr;</span>"
+
+# @ sixteen
+#: inc/extras.php:66
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+# @ optionsframework
+#: inc/options-framework.php:147
+msgid "Sixteen Theme Options"
+msgstr ""
+
+# @ optionsframework
+# @ options_framework_theme
+#: inc/options-framework.php:148 inc/options-framework.php:376
+msgid "Sixteen Settings"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-framework.php:193
+msgid "Clear"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-framework.php:194
+msgid "Default"
+msgstr "По умолчанию"
+
+# @ options_framework_theme
+#: inc/options-framework.php:195
+msgid "Select Color"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-framework.php:239
+msgid "Save Options"
+msgstr "Сохранить параметры"
+
+# @ options_framework_theme
+#: inc/options-framework.php:240
+msgid "Restore Defaults"
+msgstr "По умолчанию"
+
+# @ options_framework_theme
+#: inc/options-framework.php:240
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Нажмите OK, чтобы сбросить настройки темы."
+
+# @ options_framework_theme
+#: inc/options-framework.php:272
+msgid "Default options restored."
+msgstr "Настройки по умолчанию восстановлены."
+
+# @ options_framework_theme
+#: inc/options-framework.php:326
+msgid "Options saved."
+msgstr "Настройки сохранены."
+
+# @ options_framework_theme
+#: inc/options-media-uploader.php:51
+msgid "No file chosen"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-media-uploader.php:54 inc/options-media-uploader.php:113
+msgid "Upload"
+msgstr "Загрузить"
+
+# @ options_framework_theme
+#: inc/options-media-uploader.php:56 inc/options-media-uploader.php:114
+msgid "Remove"
+msgstr "Удалить"
+
+# @ options_framework_theme
+#: inc/options-media-uploader.php:59
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-media-uploader.php:83
+msgid "View File"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:239
+msgid "No Repeat"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:240
+msgid "Repeat Horizontally"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:241
+msgid "Repeat Vertically"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:242
+msgid "Repeat All"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:255
+msgid "Top Left"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:256
+msgid "Top Center"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:257
+msgid "Top Right"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:258
+msgid "Middle Left"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:259
+msgid "Middle Center"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:260
+msgid "Middle Right"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:261
+msgid "Bottom Left"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:262
+msgid "Bottom Center"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:263
+msgid "Bottom Right"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:276
+msgid "Scroll Normally"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:277
+msgid "Fixed in Place"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:351
+msgid "Normal"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:352
+msgid "Italic"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:353
+msgid "Bold"
+msgstr ""
+
+# @ options_framework_theme
+#: inc/options-sanitize.php:354
+msgid "Bold Italic"
+msgstr ""
+
+# @ sixteen
+#: inc/template-tags.php:34
+msgid "Post navigation"
+msgstr "Запись навигация"
+
+# @ sixteen
+#: inc/template-tags.php:38
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+# @ sixteen
+#: inc/template-tags.php:39
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+# @ sixteen
+#: inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие записи"
+
+# @ sixteen
+#: inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующие записи <span class=\"meta-nav\">&rarr;</span>"
+
+# @ sixteen
+#: inc/template-tags.php:71
+msgid "Pingback:"
+msgstr ""
+
+# @ sixteen
+#: inc/template-tags.php:87
+#, php-format
+msgctxt "1: date"
+msgid "%1$s"
+msgstr ""
+
+# @ sixteen
+#: inc/template-tags.php:94
+msgid "Your comment is awaiting moderation."
+msgstr "Спасибо! Ваш комментарий ожидает проверки."
+
+# @ sixteen
+#: inc/template-tags.php:185
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
+"<span class=\"posted-on\">Опубликовано %1$s</span><span class=\"byline\"> от "
+"%2$s</span>"
+
+# @ sixteen
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ sixteen
+#: no-results.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать первую запись? <a href=\"%1$s\">Начать здесь</a>."
+
+# @ sixteen
+#: no-results.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "К сожалению, по вашему запросу ничего не найдено."
+
+# @ sixteen
+#: no-results.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Кажется, мы не можем найти то, что вы ищете. Возможно, поиск сможет помочь."
+
+# @ options_framework_theme
+#: options.php:37
+msgid "Basic Settings"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:42
+msgid "Custom Code in Header"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:43
+msgid ""
+"Insert scripts or code before the closing &lt;/head&gt; tag in the document "
+"source:"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:49
+msgid "Custom Code in Footer"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:50
+msgid ""
+"Insert scripts or code before the closing &lt;/body&gt; tag in the document "
+"source:"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:56
+msgid "Copyright Text"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:57
+msgid ""
+"Some Text regarding copyright of your site, you would like to display in the "
+"footer."
+msgstr ""
+
+# @ default
+#: options.php:63
+msgid ""
+"To have more customization options <a href=\"http://inkhive.com/product/"
+"sixteen-plus\" target=\"_blank\">Upgrade to Pro</a> at Just $19.95"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:70
+msgid "Layout Settings"
+msgstr "Расположение настройки"
+
+# @ default
+#: options.php:85
+msgid ""
+"<a href=\"http://inkhive.com/product/sixteen-plus\" target=\"_blank\">Pro "
+"Version</a> supports the option to add custom themes, styles & Layouts. "
+"Upgrade at Just $19.95."
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:90
+msgid "Custom CSS"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:91
+msgid ""
+"Some Custom Styling for your site. Place any css codes here instead of the "
+"style.css file."
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:99
+msgid "Slider Settings"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:103
+msgid "Enable Slider"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:104
+msgid "Check this to Enable Slider."
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:110
+msgid ""
+"This Slider supports upto 5 Images. To show only 3 Slides in the slider, "
+"upload only 3 images. Leave the rest Blank. For best results, upload images "
+"of width 1180px."
+msgstr ""
+
+# @ default
+#: options.php:114
+msgid ""
+"In the <a href=\"http://inkhive.com/product/sixteen-plus\" target=\"_blank"
+"\">Pro Version (Sixteen Plus)</a> there are options to customize slider by "
+"choosing form over 16 animation effects, ability to set transition time and "
+"speed and more. Upgrade at Just $19.95"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:119
+msgid "Slider Image 1"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:120
+msgid "First Slide"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:126 options.php:151 options.php:176 options.php:201
+#: options.php:226
+msgid "Title"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:132 options.php:157 options.php:182 options.php:207
+#: options.php:232
+msgid "Description or Tagline"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:138 options.php:163 options.php:188 options.php:213
+#: options.php:238
+msgid "Url"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:144
+msgid "Slider Image 2"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:145
+msgid "Second Slide"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:169
+msgid "Slider Image 3"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:170
+msgid "Third Slide"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:194
+msgid "Slider Image 4"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:195
+msgid "Fourth Slide"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:219
+msgid "Slider Image 5"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:220
+msgid "Fifth Slide"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:246
+msgid "Social Settings"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:250
+msgid ""
+"Please set the value of following fields, as per the instructions given "
+"along. If you do not want to use an icon, just leave it blank. If some icons "
+"are showing up, even when no value is set then make sure they are completely "
+"blank, and just save the options once. They will not be shown anymore."
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:254
+msgid "Facebook"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:255
+msgid "Facebook Profile or Page URL i.e. http://facebook.com/username/ "
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:262
+msgid "Twitter"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:263
+msgid "Twitter Username"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:270
+msgid "Google Plus"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:271
+msgid "Google Plus profile url, including \"http://\""
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:278
+msgid "Feedburner"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:279
+msgid "URL for your RSS Feeds"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:286
+msgid "Instagram"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:287
+msgid "URL of your Instagram Profile"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:294
+msgid "Flickr"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:295
+msgid "URL for your Flickr Profile"
+msgstr ""
+
+# @ default
+#: options.php:302
+msgid ""
+"More social Icons are available in the <a href=\"http://inkhive.com/product/"
+"sixteen-plus\" target=\"_blank\">Pro Version (Sixteen Plus)</a>. Upgrade at "
+"Just $19.95"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:307
+msgid "Support"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:311
+msgid ""
+"Sixteen WordPress theme has been Designed and Created by <a href=\"http://"
+"inkhive.com\" target=\"_blank\">Rohit Tripathi</a>. For any Queries or help "
+"regarding this theme, <a href=\"http://inkhive.com/forums/section/theme-"
+"support/sixteen\" target=\"_blank\">use our support forum.</a> You can also "
+"ask questions about this theme on WordPress.org Support Forums. I will "
+"answer your queries there too."
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:315
+msgid ""
+"<a href=\"http://twitter.com/rohitinked\" target=\"_blank\">Follow Me on "
+"Twitter</a> to know about my upcoming themes."
+msgstr ""
+
+# @ default
+#: options.php:319
+msgid ""
+"We Offer Dedicated Personal Support to all our <a href=\"http://inkhive.com/"
+"product/sixteen-plus\" target=\"_blank\">Pro Version Customers</a>. Upgrade "
+"at Just $19.95"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:326
+msgid "Live Demo Blog"
+msgstr ""
+
+# @ default
+#: options.php:327
+msgid ""
+"I have created a  <a href=\"http://wpdemo.rohitink.com/sixteen/\" target="
+"\"_blank\">Live Demo Blog</a> of this theme so that you know how it will "
+"look once ready."
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:332
+msgid "Regenerating Post Thumbnails"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:333
+msgid ""
+"If you are using Sixteen Theme on a New Wordpress Installation, then you can "
+"skip this section.<br />But if you have just switched to this theme from "
+"some other theme, or just updated to the current version of Sixteen, then "
+"you are requested regenerate all the post thumbnails. It will fix all the "
+"isses you are facing with distorted & ugly homepage thumbnail Images. "
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:337
+msgid ""
+"To Regenerate all Thumbnail images, Install and Activate the <a href="
+"\"http://wordpress.org/plugins/regenerate-thumbnails/\" target=\"_blank"
+"\">Regenerate Thumbnails</a> WP Plugin. Then from <strong>Tools &gt; Regen. "
+"Thumbnails</strong>, re-create thumbnails for all your existing images. And "
+"your blog will look even more stylish with Sixteen theme.<br /> "
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:342
+msgid ""
+"<strong>Note:</strong> Regenerating the thumbnails, will not affect your "
+"original images. It will just generate a separate image file for those "
+"images."
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:347
+msgid "Theme Credits"
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:348
+msgid ""
+"Check this if you want to you do not want to give us credit in your site "
+"footer."
+msgstr ""
+
+# @ options_framework_theme
+#: options.php:354
+msgid "Upgrade to Pro"
+msgstr ""
+
+# @ default
+#: options.php:358
+msgid ""
+"To Upgrade to Sixteen Plus and unlock plenty of features in this theme, "
+"please visit <a href=\"http://inkhive.com/product/sixteen-plus\" target="
+"\"_blank\">this link</a>. Upgrade at Just $19.95"
+msgstr ""
+
+# @ default
+#: options.php:363
+msgid ""
+"Use the coupon code: <strong>LAUNCHER</strong> to get a discount of 25%."
+msgstr ""
+
+# @ default
+#: options.php:368
+msgid ""
+"For any queries, you can <a href=\"http://inkhive.com/contact-us/\" target="
+"\"_blank\">contact us</a>."
+msgstr ""
+
+# @ sixteen
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результат поиска для: %s"
+
+# @ sixteen
+#: searchform.php:10
+msgctxt "label"
+msgid "Search for:"
+msgstr "Поиск на:"
+
+# @ sixteen
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Искать &hellip;"
+
+# @ sixteen
+#: searchform.php:13
+msgctxt "submit button"
+msgid "Search"
+msgstr "Поиск"
+
+# @ sixteen
+#: sidebar.php:24
+msgid "Meta"
+msgstr ""

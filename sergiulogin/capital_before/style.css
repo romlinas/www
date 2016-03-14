@@ -1,0 +1,671 @@
+*{
+padding:0;
+margin:0;	
+margin:auto;
+font-family:  12pt 'Verdana', normal;
+
+
+}
+
+* input{
+color:#fff;	
+
+}
+
+body{
+color:#fff;
+}
+
+
+article, aside, details, figcaption, figure, footer,header,
+ hgroup, menu, nav, section { display: block; }
+
+ .logo{
+display: inline-block !important;	
+width:150px;
+} 
+ 
+.logo > img{
+display: inline-block !important;	
+padding-left:50px;
+margin-top:-70px;
+} 
+ 
+header{
+width:100%;
+max-width:1342px;
+height:270px;
+background:#2a2a2a;
+position:relative;
+z-index:9999;
+}
+
+.backgrond2{
+background:url("images/header.png");
+
+background-position: bottom;
+width:100%;
+height:190px;
+position:absolute;
+left:0;
+top:0;	
+z-index:-1;
+}
+
+header div[name="contacts"]{
+width:100%;
+max-width:1342px;
+height:190px;
+background:url("images/pattern.png");
+background-size:cover;	
+}
+
+header div[name="center"]{
+width:85%;
+min-width:1140px;
+padding-top:30px;
+
+}
+
+header div:first-child > div div{
+width:180px;
+height:60px;	
+vertical-align:middle;
+display:inline-block;
+background:none;
+color:#fff;
+margin:20px 0 0 0;
+line-height:16px;
+
+
+
+
+}
+
+header div:first-child > div div:nth-child(3){
+float:right;
+width:50px;
+
+}
+
+header div:first-child > div div:nth-child(3) img{
+padding-top:15px !important;
+display:block;
+
+}
+
+header div:first-child > div div:nth-child(4){
+float:right;
+width:50px;
+
+}
+
+header div:first-child > div div:nth-child(4) img{
+padding-top:15px !important;
+display:block;
+
+}
+
+
+
+header div:first-child  > div  div > div{ 
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  margin:0;
+  float:left;
+  
+  
+}
+header div:first-child  > div h4{
+  display: inline-block;
+  width:auto;
+  float:left;
+  padding:8px;
+  padding-top:5px;
+  
+
+  
+}
+header div:first-child  > div h5{
+  display: inline-block;
+  width:auto;
+  float:left;
+  font-weight:lighter;
+
+  
+}
+  
+  
+header div:first-child  div img{
+  display: block;
+  text-align:center;
+  padding-top:10px;
+
+  
+}
+
+header div:first-child  div img[name="mail"]{
+  padding-top:15px;  
+}
+
+header nav{
+width:85%;
+min-width:1140px;
+height:80px;
+background:#333;
+margin-top:-40px;	
+
+
+}
+
+header nav ul{
+width:450px;
+margin:auto;
+padding-top:30px;
+}
+
+header nav ul li{
+list-style-type:none;
+display:inline-block;
+margin-left:20px;
+}
+
+header nav ul li:hover{
+color:#bf3131;
+cursor:pointer;
+
+}
+
+
+footer{
+	margin-top:100px;
+	height:300px;
+	width:100%;
+}
+
+.rata_lunara{
+ background-color:#25282a;
+}
+
+#price{
+width:100%;
+max-width:1342px;
+min-width:1342px;
+height:140px;	
+background:#333333;	
+
+}
+#price div{
+width:80%;
+margin:auto;
+
+}
+
+#price img{
+display:block;
+margin:auto;
+margin-top:5px;
+
+}
+
+#price > div > div:first-child{
+width:300px;
+height:60px;	
+vertical-align:middle;
+display:inline-block;
+background:none;
+color:#fff;
+line-height:16px;
+margin:auto;
+float:left;
+padding-top:40px;
+margin-right:47px;
+}
+
+#price > div > div:nth-child(2){
+width:230px;
+height:100px;	
+vertical-align:middle;
+display:inline-block;
+background:#222222;
+color:#fff;
+line-height:16px;	
+margin:auto;
+margin-top:-20px;
+padding: 30px 60px 30px 75px ;
+position:relative;
+z-index:9999;
+
+
+}
+
+#price > div > div:nth-child(2) button{
+width:120px;
+height:30px;
+margin:auto;
+background:#bf3131;
+border:0;
+color:#fff;
+display:block;
+margin-top:115px;
+cursor:pointer;
+
+}
+
+#price > div > div:nth-child(3){
+width:210px;
+height:60px;	
+vertical-align:middle;
+display:inline-block;
+background:none;
+color:#fff;
+line-height:16px;
+padding-top:40px;
+float:right;
+
+margin:auto;
+}
+
+
+#price > div > div > div{
+width:50px;
+height:50px;
+background:#fff;
+float:left;	
+}
+
+#price > div > div > h4{
+
+float:left;	
+width:auto;
+padding-left:10px;
+}
+#price > div > div > h5{
+width:150px;;
+float:left;	
+font-size:10px;
+padding-left:10px;
+}
+
+#price div:first-child > div > div{
+
+float:left
+
+	
+	
+}
+#calc{
+	width:100%;
+	min-width:1342px;
+	max-width:1342px;
+	background:#3d3d3d;
+	height:450px;
+}
+
+.calc-left{
+display:inline-block;
+width:671px;
+max-width:671px;
+min-width:671px;
+float:left;	
+background:#3d3d3d;
+height:450px;
+}
+
+.calc-right{
+width:671px;
+max-width:671px;
+min-width:671px;
+display:inline-block;
+float:right;	
+background:#474747;
+height:450px;
+}
+
+.calc-right table{
+width:80%;
+
+}
+.calc-right  table h1, table h2{
+text-align:left;
+
+}
+
+.calc-right table td{
+width:150px;
+text-align:center;
+}
+
+.calc-right table td:first-child{
+width:150px;
+text-align:left;
+}
+
+.calc-right table td input{
+color:#000;
+text-align:right;
+}
+
+
+
+
+
+
+
+
+.calc-left form{
+display:block;
+margin:auto;
+
+}
+
+
+
+div.demo {
+	
+	padding: 10px !important;
+	width: 400px;
+	margin-top:50px;
+	
+	}
+	
+.ui-widget{
+	font-size: 0.6em !important; 
+	}
+	
+	
+	
+.aplica{
+	width:400px;
+	max-width:400px;
+	min-width:400px;
+	padding-top:20px;
+	display:block;
+
+}	
+
+.aplica{
+	width:500px;
+
+}
+
+.aplica form{
+display:block;
+
+}	
+	
+.aplica div{
+	display:inline-block;
+	margin:auto;
+	
+	
+	}	
+
+.aplica input{
+	background:#25282a;
+	border-radius:5px;
+	height:25px;
+	border: 1px solid #000;
+	margin-bottom:20px;
+    width:185px;
+	margin-top:10px;
+
+}	
+
+
+
+.aplica div:first-child, .aplica div:nth-child(3){
+float:left;
+}		
+
+.aplica div:nth-child(2), .aplica div:nth-child(4){
+float:right;
+}
+
+#button{
+width:100%;  
+	
+}
+
+.aplica input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    border: 1px solid #000;
+    display: block;
+    margin: auto;
+	border-radius:0;
+	background:#bf3131;
+
+
+}	
+
+/*            border:1px solid red;               */
+
+
+
+.conditii{
+width:100%;
+height:auto;
+padding-bottom:50px;
+background:#222;
+position:relative;
+min-width:1342px;
+max-width:1342px;
+
+}
+
+.conditii div img{
+display:block;
+width:100px;
+height:100px;
+margin:center;
+margin-top:30px;
+
+}
+.conditii-center{
+padding-top:50px;
+width:66%;	
+display:block;
+
+}
+
+.conditii-center div{
+display:inline-block;	
+width:165px;
+vertical-align:top;
+
+text-align:center;
+font-size:16px;
+}
+
+.conditii-center div div{
+
+width:165px;
+height:165px;
+background: #333333;
+}
+
+.conditii-center p{
+padding:2px;
+margin-left: -10px;
+width:185px;
+margin-top:20px;
+}
+
+.conditii h1{
+width:125px;
+margin:auto;
+padding-top:100px;
+}
+
+.conditii input[type="submit"]{
+    width: 185px;
+    height: 40px;
+    border: 1px solid #000;
+    display: block;
+    margin: auto;
+	border-radius:0;
+	background:#bf3131;
+	margin-top:20px;
+
+
+}	
+
+hr{
+width:120px;
+display:inline-block !important;
+margin-top:82px;
+border-color:gray;
+margin-left:30px;
+margin-right:30px;
+}
+
+footer{
+	width:100%;
+	min-width:1342px;
+	max-width:1342px;
+	background:#3d3d3d;
+	height:488px;
+	margin-top:0;
+}
+
+.footer-left{
+display:inline-block;
+width:671px;
+max-width:671px;
+min-width:671px;
+float:left;	
+background:#3d3d3d;
+height:488px;		
+}
+
+
+.footer-right{
+width:671px;
+max-width:671px;
+min-width:671px;
+display:inline-block;
+float:right;
+background:url("images/contacts.png");
+height:488px;
+
+	
+}
+.footer-right ul{
+
+float:left;
+
+
+	
+}
+
+.footer-right li{
+list-style:none;
+
+	
+}
+.footer-center{
+	margin-top:50px;
+width:80%;
+	
+}
+
+
+.fimg{
+  display:block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  margin:0;
+  float:left;
+  margin-right:10px;
+}
+
+.fimg img{
+  margin:auto;
+  padding-top:15px;
+  display:block;
+ 
+  
+}
+
+.fimg img[name="phone"]{
+padding-top:10px !important;
+ 
+}
+
+.block{
+ width:350px;
+float:left;
+padding-left:20px;
+margin-top:34px;
+line-height:20px;
+	
+}
+
+.footer-right: h4{
+  display: block;
+  width:auto;
+  padding-left:10px;
+ font-size:16px
+
+  
+
+  
+}
+.footer-right h5{
+  display:block;
+  font-weight:lighter;
+  font-size:13px
+
+  
+}
+
+.bottom{
+width:100%;
+height:60px;
+background:#333333;	
+margin:auto;
+max-width:1342px;
+font-size:12px;
+text-align:center;
+display:block;
+
+
+}
+
+
+.bottom div{
+	padding-top:25px;
+color:#666666;
+display:block;
+
+}
+
+.bottom div font{
+color:#bf3131;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

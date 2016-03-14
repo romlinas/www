@@ -1,0 +1,28 @@
+#content {
+	_height:600px;
+	_width: 500px; 
+	_margin-left:10px; 
+	} 
+	
+/* Begin Form Elements */
+	
+.entry ul li {
+   _padding-left:8px;  
+   }	
+   
+blockquote {
+	_height:30px;
+	}
+
+#sidebar #searchform #s {
+	_width:150px;
+	}
+
+#header #headerimg .description {
+    _height:42px;
+	}
+	
+#menu-bar {
+ 	_padding-top:11px;
+	}
+

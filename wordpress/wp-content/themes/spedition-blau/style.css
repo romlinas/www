@@ -1,0 +1,392 @@
+/*  
+Theme Name: Spedition blau
+Theme URI: http://wordpress.org/
+Description: Kostenloses Wordpress Theme von Ongate. Bilder von www.sxc.hu. Bei Benutzung des Themes muss der Footerbereich erhalten bleiben!
+Author: Ongate.eu
+Author URI: http://ongate.eu/
+
+*/
+
+hmtl{
+     }
+
+body{
+	color: #9cf;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #3568a1; }
+/*--------------------Seitenlayout--------------------*/
+#head1 {
+	background-image: url(images/gradient1.gif);
+	width: 100%;
+	height: 40px; }
+#head2 {
+	background-image: url(images/gradient2.jpg);
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 224px; }
+#head_container {
+	background-image: url(images/lkw.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	width: 800px;
+	height: 224px; }
+.title {
+	color: #fff;
+	font-size: 24px;
+	font-family: "trebuchet ms", verdana;
+	padding-top: 70px;
+	padding-left: 240px; }
+.title a {
+	color: #fff;
+	font-size: 28px;
+	text-decoration: none;
+	text-align: left; }
+.slogan {
+	color: #f9f9f9;
+	font-size: 16px;
+	font-family: "trebuchet ms", verdana;
+	padding-left: 240px; }
+#body_background {
+	background-image: url(images/gradient_body.gif);
+	background-repeat: repeat-x; }
+#main_container {
+	background-repeat: repeat-x;
+	text-align: left;
+	width: 800px; }
+#left_content {
+	background-image: url(images/border_left.gif);
+	background-repeat: no-repeat;
+	width: 500px;
+	float: left;
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-left: 20px;
+	display: table-cell; }
+.content {
+	 }
+.meta {
+	text-align: right;
+	padding-bottom: 20px; }
+#right_content {
+	background-image: url(images/border_right.gif);
+	background-repeat: no-repeat;
+	background-position: right 0;
+	text-align: left;
+	width: 220px;
+	float: right;
+	padding-top: 15px;
+	display: table-cell; }
+#footer {
+	background-color: #373737;
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	float: right;
+	padding-top: 5px; }
+input {
+	border:solid 1px #000;
+	background-color:#cdd3ea;
+	font-family:Tahoma;
+	font-size:11px;
+	color:#5e5c4e;
+	padding-left: 5px; }
+.searchbutton {
+	color: #fff;
+	text-align: center;
+	width: 40px;
+	border: solid 1px #b8bcc7;
+	cursor: pointer;
+	display: block; }
+/*--------------------textgestaltung--------------------*/
+h2 {
+	color: #cfd7e2;
+	font-size: 14px;
+	font-family: "trebuchet ms", verdana;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0.83em 0; }
+.post_title a {
+	color: #fff;
+	font-size: 16px;
+	font-family: "trebuchet ms";
+	font-weight: bold; }
+.datum {
+	color: #c4cbd6;
+	font-size: 10px;
+	font-weight: normal; }
+a {
+	color: #c6c6d9;
+	font-size: 10px;
+	text-decoration: none; }
+p{
+     }
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	
+	}
+
+blockquote {
+	
+	}
+
+blockquote cite {
+	
+	}
+
+
+
+hr {
+	
+	}
+
+
+
+
+
+dl{
+     }
+     dt{
+          }
+          dd{
+          }
+
+ul{
+	color: #fff;
+	list-style-type: decimal-leading-zero; }
+ol{
+     }
+     li{
+	color: #b9cbdd;
+	padding-right: 12px;
+	list-style-type: circle; }
+li a {
+	color: #b9cbdd;
+	text-decoration: none;
+	width: 120px;
+	padding-right: 12px;
+	list-style-type: circle; }
+li a:hover {
+	color: #b9cbdd;
+	text-decoration: underline;
+	padding-right: 12px;
+	width: 120px;
+	list-style-type: circle; }
+ul ul{
+         }
+
+blockquote{
+     }
+     blockquote p{
+          }
+
+code{
+     }
+
+pre{
+     }
+
+b, strong,i,em {
+     }
+
+img{
+     }
+
+address {
+     }
+
+/*--------------------linkgestaltung--------------------*/
+
+
+a {
+     }
+a:link { 
+     }
+a:visited { 
+     }
+a:link:focus{ 
+     }
+a:link:hover, 
+a:visited:hover { 
+    }
+a:link:active, 
+a:visited:active {
+     }
+
+/*--------------------bilder als links--------------------*/
+a img{
+     }
+a:link img { 
+     }
+a:visited img { 
+     }
+a:link:active img, 
+a:visited:active img {
+      }
+
+/*--------------------smilies im text--------------------*/
+
+body img.wp-smiley{
+     }
+
+
+
+/*--------------------der weiterlesen link--------------------*/
+
+.more-link{
+     }
+
+/*--------------------die seiten wenn es mehrere gibt--------------------*/
+p.serif{
+     }
+
+/*--------------------suche--------------------*/
+
+#searchform{
+     }
+
+input#s{
+     }
+
+input#searchsubmit{
+     }
+
+
+
+
+/*--------------------Kommentare--------------------*/
+.alt {
+	 
+	}
+
+.commentlist {
+	 
+	}
+
+
+.nocomments {
+	 
+	}
+ 
+.commentlist li {
+	 
+	}
+
+.commentlist cite, 
+.commentlist cite a {
+	 
+	}
+
+.commentlist p {
+	 
+	}
+
+#commentform p {
+	 
+	}
+
+.commentmetadata {
+	 
+	}
+
+#commentform input {
+	}
+
+#commentform textarea {
+	}
+
+#commentform #submit {
+	 
+	}
+
+/*--------------------fuer den wp kalender--------------------*/
+ 
+#wp-calendar th {
+	 
+	}
+
+
+#wp-calendar {
+	empty-cells: show;
+	
+	}
+
+#wp-calendar #next a {
+	
+	}
+
+#wp-calendar #prev a {
+	
+	}
+
+#wp-calendar a {
+	
+	}
+
+#wp-calendar caption {
+	
+	}
+
+#wp-calendar td {
+	
+	}
+
+#wp-calendar td.pad:hover { 
+      }
+
+
+/*-------------------- widgets---------------------*/
+h2.widgettitle{
+     }
+.widget {
+     }
+
+/*--------------------Archive--------------------*/
+
+li#archives{
+     }
+
+.widget_archives{
+     }
+
+/*--recent posts--*/
+
+
+li#recent-posts{
+     }
+
+.widget_recent_entries{
+     }
+
+
+
+/*--------------------text widget--------------------*/
+li.widget_text{
+     }
+
+/*--id haengt von der nummer des text widgets ab*/
+li#text-4{
+     }
+div.textwidget{
+     }
+
+/*--------------------links blogroll--------------------*/
+
+li#links{
+     }
+
+.widget_links{
+     }
+
+
+/*--------------------kategorien--------------------*/
+
+li#categories{
+     }
+
+.widget_categories{
+     }
+

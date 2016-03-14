@@ -1,0 +1,312 @@
+/* 
+Theme Name: WP WoodBlog
+Description: Theme coded by: <a href="http://vizonmedia.com">VizonMedia.com</a>, brought to you by <a href="http://mcaurie.com">McAuire</a>.
+Version: 1.0
+
+Author: <a href="http://McAurie.com">McAurie</a>.
+*/
+
+/* Coded by Vizon Media http://VizonMedia.com */
+
+/* MAIN ELEMENTS */
+body {
+	background: url("images/pattern.gif") repeat;
+	font: normal 12px georgia;
+}
+
+
+#container {
+	width: 1010px;
+	height: auto;
+	margin: 40px auto 0 auto;
+}
+
+
+* {
+	margin: 0; padding: 0;
+}
+.clear {
+	clear: both; 
+}
+* { behavior: url(iepngfix.htc); }
+
+a {
+	color: #d06429;
+}
+
+a:hover {
+	color: #d06429;
+	text-decoration: none;
+}
+
+#wrap {
+	float: left;
+}
+
+#ruler {
+	width: 104px;
+	height: 195px;
+	background: url("images/ruler.png") no-repeat;
+	margin-top: 600px;
+	float: left;
+}
+
+/* END MAIN ELEMENTS */
+
+/* HEAD ELEMENTS */
+	#logo {
+		width: 236px;
+		height: 118px;
+		background: url("images/logo.png") no-repeat;
+		float: left;
+	}
+
+		#logo a {
+			width: 236px;
+			height: 118px;
+			display: block;
+			text-indent: -10000px;
+			outline: none;
+		}
+
+	#head {
+		width: 531px;
+		height: 147px;
+		background: url("images/head.png") no-repeat;
+		float: left;
+	}
+
+		#head ul {
+			margin: 85px 48px 0 0;
+			float: right;
+			list-style: none;
+		}
+
+			#head ul li {
+				float: left;
+			}
+
+				#head ul li a {
+					width: 77px;
+					height: 62px;
+					display: block;
+					text-indent: -10000px;
+					outline: none;
+				}
+
+	#head2 {
+		width: 813px;
+		height: 128px;
+		background: url("images/head2.png") no-repeat;
+	}
+
+
+
+/* END HEAD ELEMENTS */
+
+/* CONTENT ELEMENTS */
+
+	#cont {
+		width: 755px;
+		height: auto;
+		background: url("images/cont.gif") repeat-y;
+	}
+
+		#left {
+			width: 505px;
+			height: auto;
+			padding: 25px 0 0 25px;
+			float: left;
+		}
+
+			#next {
+				margin-top: 16px;
+				height: 20px;
+				float: right;
+			}
+
+			#prev {
+				margin-top: 16px;
+				height: 20px;
+				float: left;
+			}
+
+			.archives {
+				line-height: 20px;
+			}
+
+			.post {
+				margin-bottom: 26px;
+			}
+				
+				.post ul {
+					list-style: square;
+					margin: 20px 0 0 45px;
+				}
+
+					.post ul li {
+						line-height: 20px;
+					}
+
+
+				.post h2 {
+					font: bold 23px georgia;
+					color: #4d4f53;
+					line-height: 34px;
+				}
+
+				.post h3 {
+					line-height: 20px;
+				}
+
+					.post h2 a {
+						color: #4d4f53;
+						text-decoration: none;
+					}
+
+						.post h2 a:hover {
+							color: #4d4f53;
+							text-decoration: underline;
+					}
+
+				.post ol {
+					list-style: none;
+					line-height: 20px;
+					font-size: 11px;
+				}
+
+					.post ol li {
+						line-height: 20px;
+						float: left;
+						color: #848484;
+						margin-right: 3px;
+					}
+
+				.post img {
+					float: left;
+					margin: 5px 10px 0 0;
+					border: none;
+				}
+
+				.post p {
+					padding-top: 20px;
+					line-height: 20px;
+					text-align: justify;
+				}
+
+				#comments {
+					margin-top: 20px;
+				}
+					#comments span {
+						line-height: 20px;
+						float: left;
+					}
+
+					.box {
+						width: 490px;
+						height: auto;
+						padding: 8px;
+						border: 2px solid #ddaa8e;
+						margin: 10px 0;
+					}
+
+						.box img, .box2 img {
+							float: none;
+							margin: 0;
+						}
+
+					.name {
+						height: 16px;
+						float: left;
+					}
+
+					#subcomment {
+						margin-top: 15px;
+					}
+
+					#commenter {
+						height: 78px;
+						margin-left: 5px;
+						float: left;
+					}
+
+
+					.box2 {
+						width: 490px;
+						height: auto;
+						padding: 8px;
+						background: #f7d8c7;
+						border: 2px solid #ddaa8e;
+					}
+
+						.box p, .box2 p {
+							padding: 0;
+							line-height: 20px;
+						}
+
+						.date {
+							color: #7e7c7b;
+							font-size: 10px;
+						}
+
+	
+		#right {
+			float: right;
+			margin-right: 11px;
+		}
+
+			#cat {
+				width: 172px;
+				height: 42px;
+				background: url("images/cat.png") no-repeat;
+				text-indent: -10000px;
+				margin-top: 10px;
+			}
+
+			#arch {
+				width: 172px;
+				height: 42px;
+				background: url("images/arch.png") no-repeat;
+				text-indent: -10000px;
+				margin-top: 10px;
+			}
+
+			#blog {
+				width: 172px;
+				height: 42px;
+				background: url("images/blog.png") no-repeat;
+				text-indent: -10000px;
+				margin-top: 10px;
+			}
+
+			#right ul {
+				list-style: none;
+				margin: 8px 0 0 10px;
+			}
+				#right ul li {
+					background: url("images/li.gif") no-repeat;
+					line-height: 20px;
+					padding-left: 20px;
+				}
+
+
+/* END CONTENT ELEMENTS */
+
+
+/* FOOTER ELEMENTS */
+
+	#foot {
+		width: 755px;
+		height: 38px;
+		background: url("images/foot.gif") no-repeat;
+		margin-bottom: 20px;
+		text-align: center;
+		color: #fff;
+		padding-top: 52px;
+	}
+
+		#foot a {
+			color: #fff;
+		}
+
+/* END FOOTER ELEMENTS */

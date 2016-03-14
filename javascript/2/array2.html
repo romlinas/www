@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	//св-ва и методы массивов
+
+//узнаем кол-во эл-ов в этом массиве
+var days = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"];
+
+//за это отвечает св-во length(длина)
+var count = days.length;
+document.write("колличество эл-в в массиве - " + count + "<br>");
+document.write("последний в массиве - " + days[days.length - 1] + "<br>");
+
+
+
+//метод добавления нового эл-та в массив
+var students = [ "George","John", "Wiliam"];
+
+//можно добавить либо в конец масс. либо в начало
+//в конец push
+students.push("Jack");
+
+// в начало
+students.unshift("Loky");
+
+//методы удаления эл-ов из мас-ва
+//удаляет последний эл-т
+students.pop();
+
+document.write(students + "<br>");
+
+var count2 = students.length;
+document.write(count2 + "<br>");
+
+//вывести последний эл-т
+document.write("Last student - " + students[students.length - 1] + "<br>");
+
+//метод кот-й удаляет эл-т из начала массива
+students.shift();//первый уд-ся по умолч.
+students.shift();
+students.shift();
+document.write(students + "<br>");
+document.write(students[0]);
+
+
+</script>
+
+</body>
+</html>

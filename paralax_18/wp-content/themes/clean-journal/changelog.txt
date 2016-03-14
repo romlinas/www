@@ -1,0 +1,37 @@
+== Change log ==
+
+= 1.1 =
+* Added: Danish translation da_DK.po and da_DK.mo
+* Added: Disable scrollup option
+* Bug Fixed: Script handles
+* Bug Fixed: Genericons issue with To Top plugin
+
+= 1.0.1 =
+* Bug Fixed: Header Top message now only shown to logged in users with ability to edit theme options
+* Bug Fixed: Header Top mobile menu anchor issue in toggle
+* Bug Fixed: Header layout issue in iPhone4 landscape view
+
+= 1.0 =
+* Added: Social Icons for Phone, Handset, Cart, Cloud, Link( Custom Link )
+* Bug Fixed: Breadcrumb css issue in IE 11
+* Bug Fixed: Featured Slider Transition Effect Not Updating
+* Bug Fixed: Text Domain in style.css
+* Bug Fixed: Custom Social Icon Link not saving due to sanitization issues
+* Bug Fixed: No sidebar ( Content Width ) layout issue in mobile devices ( Reported by LiminalLLC )
+* Enhanced: Used antispambot() function on emails output on social icons
+* Updated Genericons to 3.4.1
+* Updated Jetpack Scroll Pagination Option to enable infinite scroll in Reading Settings
+
+= 0.4 =
+* Updated screenshot
+* relaced journal-customizer-custom-scripts.min.js with clean-journal-customizer-custom-scripts.min.js
+
+= 0.3 =
+* Updated screenshot
+* Initial Release in Catchthemes.com
+
+= 0.2 =
+* Submitted to WordPress.org
+
+= 0.1 =
+* Theme Completed

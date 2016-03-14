@@ -1,0 +1,187 @@
+/* 
+Theme Name: Classroom
+Theme URI: http://www.wpthemescreator.com
+Description: Education
+Author: Wordpress Themes Creator
+Version: 1.0
+Author URI: http://www.wpthemescreator.com
+*/
+
+/* Page Bodyy*/
+body { 
+  background: url(images/body.jpg) repeat-y top center;
+  background-color:#010101;
+  margin: 0px ;
+  padding: 0px 0  px;
+  font-family: "Trebuchet MS";
+  font-size: 12px;
+  color: #010101;
+  text-align : justify;
+	} 
+
+/* Header*/
+#rap { 
+  margin:auto;
+  margin-top:-10x;
+  width: 800px; 
+  background-image: url('images/header.jpg'); 
+  background-repeat: no-repeat;
+	}
+
+/* Body Content */
+#content { 
+	float:left;
+	padding: 315px 0px 0px 100px;
+	width: 365px;
+	}
+  
+/* Menu Sidebar*/
+#menu { 
+	float:right;
+	padding: 320px 150px 10px 0;
+	width: 150px;
+ 	text-align: right;
+	} 
+
+#menu ul { 
+  	margin: 0px 0px 0px 0px; 
+  	padding: 0px;
+  	list-style-type: none;
+	}
+
+#menu ul li {
+   margin: 0px;
+	}
+
+#menu p { 
+   margin: 0px 0px 0px 0px;
+   }
+  
+#menu ul a{
+	color: #614e46;
+	font-size: 1,2em;
+	padding-right: 20px;
+	background-image: url(images/yellowbull.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	text-decoration: none;
+  }
+
+#menu ul a:hover { 
+  color: #fff; 
+  background-image: url(images/redbull.gif); 
+  background-repeat: no-repeat;
+  background-position: right top;
+  }
+  
+#menu h2, .pagenav {
+  color: #142b1c;
+  text-transform: lowercase;
+  font-size: 15pt;
+  line-height: 15px;
+  letter-spacing: normal;
+  margin:12px 0 7px 0;
+  padding:0
+  }
+	
+/* WP Pagesy*/
+.page_item{
+	font-size:10pt;
+	letter-spacing:0;
+	font : Trebuchet MS;
+	line-height : 30px;
+	}
+	
+/* Links*/
+a {
+  color: #754b0e;
+  font-weight: bold;
+  font-size: 1em; 
+  text-decoration: none;
+  }
+  
+a:hover { 
+  color: #a54530;
+  }
+  
+strong, em, i, b { 
+  color: #142b1c;
+  }
+  
+/* Comments*/
+.commentlink {
+  padding-left: 20px; 
+  background-image: url(images/tribull.gif); 
+  background-repeat: no-repeat; 
+  background-position: top left; 
+  }
+
+.commentlink a {color: #a86b13;
+  }
+
+.commentlink a:hover {color: #a54530;
+ }
+
+u { 
+  text-decoration: none;
+  color: #142b1c;
+  border-bottom: 1px solid #107d98;
+  }
+
+
+/* Text Input Boxes*/
+input {
+  background: White;
+  color: Black;
+  border: 1px solid #69CFD1;
+  margin : 2px;}
+  }
+
+blockquote, textarea{ 
+  color: Black; 
+  background-color: White; 
+  border: 1px solid Black;
+  padding: 3px;
+  }
+  
+  
+/*  Headers */
+h1 {
+   display:none
+   }
+
+#content h2 {
+	color: #a54530;
+	text-transform: none;
+	font-size: 15pt;
+	line-height: 45px;
+	text-align: left;
+    letter-spacing: normal;
+	margin:0
+    }
+
+#content h3 {margin: 10px 0;
+   font-size:10pt;
+   text-align: left;
+   }
+
+#content h4 {margin: 0px 0;
+  font-size:10pt;
+  text-align: right;
+  }
+
+#content ul li{list-style:none;
+   padding-left: 20px; 
+   background-image: url(images/yellowbull.gif); 
+   background-repeat: no-repeat; 
+   background-position: left top; 
+   }
+
+#footer {clear:both;
+  text-align:center;
+  padding:10px 150px 10px 120px
+  }
+
+#credit { 
+  background:  url(images/credit.jpg) repeat-y bottom left;
+  } 

@@ -1,0 +1,7 @@
+.info{
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}

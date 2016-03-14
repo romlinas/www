@@ -1,0 +1,56 @@
+/*
+
+	Supersized - Fullscreen Slideshow jQuery Plugin
+	Version : 3.2.7
+	Site	: www.buildinternet.com/project/supersized
+	
+	Theme 	: Shutter 1.2
+	Author	: Sam Dunn
+	Company : One Mighty Roar (www.onemightyroar.com)
+	License : MIT License / GPL License
+	
+*/
+
+	/* Controls Bar
+	----------------------------*/
+	
+		
+			
+				#play-button{/* float:left; margin-top:1px;border-right:1px solid #333; background:url('../images/slider/bg-hover.png') repeat-x 0 44px; */ display:none;}
+					#play-button:hover{ /*background-position:0 1px; cursor:pointer; */ display:none; }
+				#prevslide, #nextslide{
+	background:url(../images/sprite_tn.png) no-repeat;
+	width:47px;
+	height:47px;
+	text-indent:-9999px;
+	position:absolute;
+	top:48%;
+	z-index:20;
+	cursor:pointer;
+}
+#prevslide{
+	background-position:left top;
+	left:15%;
+}
+#prevslide:hover:hover{
+	background-position:left bottom;
+}
+#nextslide{
+	background-position:right top;
+	right:15%;
+}
+#nextslide:hover{
+	background-position:right bottom;
+}
+				
+				
+						
+	
+	/* Progress Bar
+	----------------------------*/					
+	#progress-back{ z-index:5; position:fixed; bottom:42px; left:0; height:8px; width:100%; background:url('../images/slider/progress-back.png') repeat-x; }
+		#progress-bar{ position:relative; height:8px; width:100%; background:url('../images/slider/progress-bar.png') repeat-x; }
+	
+	
+	
+				

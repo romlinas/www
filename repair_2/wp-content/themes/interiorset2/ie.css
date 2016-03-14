@@ -1,0 +1,21 @@
+
+.top_entry {
+	padding-top: 10px;
+	height:192px;
+}
+
+#content .mag_posts .mag_posts_entry {
+	height:200px;
+}
+.mag_posts_meta {
+	margin-top: 5px;
+}
+
+#contents .post .post-entry {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#contents .post #commentform {
+	margin-top: 10px;
+}
