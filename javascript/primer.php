@@ -28,18 +28,12 @@
 
  	
  
- for($i = 0; $i < 5; $i++)
- {
-    echo $array3[0][$i];
-    echo '<br>';
-
-    for($i = 0; $i < 5; $i++)
- {
-    echo $array3[1][$i];
-    echo '<br>';
-    
-    
- }   
+ for($i = 0; $i < 3; $i++)
+ {     
+		    for($a = 0; $a < 3; $a++)
+		 {
+		    echo $array3[$i][$a];      
+		 }  
     
  }   
 

@@ -90,112 +90,144 @@ Mage::run($mageRunCode, $mageRunType);
 
 #$text =  fread($file, filesize("./sku3.csv"));
 
-//открывает файл
 $text = fopen("./productos_nrk.csv", "r");
 
 if ($text)
 {
     $i = 1;
-    //читает одну строку, если не нах-т строку то false
+    //пока читаются строки
     while (($line = fgets($text)) !== false)
 {
-    // process the line read.
-    //пропуск, если 2 знач-я - (/n), в конце файла при просмотре всегда в конце строки стоит(/п)
-    if (strlen($line) == 2)
+        //если в строке только знач-я 
+        if (strlen($line) == 2)
+            continue;
 
-    //выполняется то что до него,т.е если в if продолжают читаться строки 
-    continue;
-    
-    //начинает выполн-ся, когда строки закончились в файле. Разделяет знач-я после запятой
-    $array[$i] = explode(",", $line);
-    $i++; 
-    //останав-ся когда кол-во строк равн-ся 10 
-    if($i == 10) break;      
+        $array[$i] = explode(",", $line);
+        $i++;        
+
+        //пока только 10 строк
+        if($i == 10) break;
 }
-    //прекращает читать файл
+
     fclose($text);
+
 }
-    else{echo "Невозможно открыть файл";
+else{echo "Невозмоно открыть файл";
 } 
 
 
 $search = "AGRUPACIONES_WEB";
-// $replace = "\"4\"";
+$replace = "\"4\"";
 
 //для поиска позиции категории 
 foreach ($array[1] as $key => $val)
 {
     if ($val == $search)
     {
-        // echo $key;
         $position = $key;
         break;
     }
 }
-//echo $array[2][$position];
 
-// $i = 1;
-// foreach($array[$i] as $key => $value)
-// {
-//   strpos($value, "\"");
+#echo $array[4][$position];
 
+//for parent category
+function add_parent($name)
+    {
+        $category = Mage::getModel('catalog/category');
+         //родит-я т.к 1
+        $parentId = 1;
+        $storeId  = 0;
 
-function  add_parent($name)
-{
-$category = Mage::getModel('catalog/category');
+        $category->setStoreId($storeId);
+        $category->setName($name);
+        $category->setUrlKey($name);
+        $category->setIsActive(1);
+        $category->setDisplayMode('PRODUCTS');
+        $parentCategory = Mage::getModel('catalog/category')->load($parentId);
+        $category->setPath($parentCategory->getPath());
+        //сохранить категории 
+        $category->save();
+         
+        //вернёт id категории кот-ю добавил(возвращ-ся из бд)
+        return $category->getId();
+    }
+  
 
-// 1 означает что это родит-я катег-я 
-$parentId = 1;
-$storeId  = 0;
-
-//дальше задаются св-ва
-$category->setStoreId($storeId);
-//имя приходит снизу из цикла do
-$category->setName($name);
-//
-$category->setUrlKey($name);
-$category->setIsActive(1);
-$category->setDisplayMode('PRODUCTS');
-$parentCategory = Mage::getModel('catalog/category')->load($parentId);
-$category->setPath($parentCategory->getPath());
-$category->save();
-return $category->getId();
-}
-
+ //for child category
 function add_child($name, $parentId)
+    {
+      
+        
+        $storeId  = 0;
+        $category = Mage::getModel('catalog/category');
+
+        $category->setStoreId($storeId);
+        $category->setName($name);
+        $category->setUrlKey($name);
+        $category->setIsActive(1);
+        $category->setDisplayMode('PRODUCTS');
+        $parentCategory = Mage::getModel('catalog/category')->load($parentId);
+        $category->setPath($parentCategory->getPath());
+        $category->save();
+    }    
+
+
+//the parser & adder itself
+$categories = new Array();
+
+for ($i=5; $i<7; $i++)
+
 {
-
-$storeId  = 0;
-$category = Mage::getModel('catalog/category');
-
-$category->setStoreId($storeId);
-$category->setName($name);
-$category->setUrlKey($name);
-$category->setIsActive(1);
-$category->setDisplayMode('PRODUCTS');
-$parentId = Mage_Catalog_Model_Category::TREE_ROOT_ID;
-$parentCategory = Mage::getModel('catalog/category')->load($parentId);
-$category->setPath($parentCategory->getPath());
-$category->save();
-}
-
-for ($i=4; $i<6; $i++)
-
-{
-
+    $j=0;
+    $z=0;
     $found = false;
     do 
-     {
-
+     { 
+        
         //TODO add repeating cat validation
-        $cat = explode('/', $array[$i][$position]);
-        //strpos - ищет ковычку в субкат-рии
-        if (strpos("\"", $cat[1]) === FALSE) 
-        add_child($cat[1], add_parent($cat[0]));
-        else $found = true;
+        $cat = explode('/', $array[$i][$position+$j]);
+       # echo $array[$i][$position+$j];
+        #var_dump($cat);
+        #echo (strpos("\"", $cat[1]));
+        #echo "<br />";
 
+
+        echo $j;
+        //поиск чего-либо в строке
+        if (strpos("\"", $cat[1]) === false)
+        {
+
+            echo $cat[1];
+            $j++;
+            if(isset($categories[$cat[0]]))
+            {
+                if(isset($categories[$cat[1]]))
+                {
+                  continue;
+                }
+                else
+                {
+                  add_child($cat[1], add_parent($cat[0]));   
+                }
+
+            }         
+            else
+              {
+                $categories[$cat][0] =  
+              }            
+            
+        }        
+        else 
+        {
+            add_child($cat[1], add_parent($cat[0]));
+            $found = true;
+        }
+
+        $z++;
      }
-    while ($found == false);
+    // while($z < 3);
+    while ($found === false);
     
 
 }
